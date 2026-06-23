@@ -1,0 +1,1796 @@
+
+--- START CANVA TEMPMAIL REGISTER BOT at 2026-06-23 08:20:28.562149 ---
+[2026-06-23 08:20:28] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:20:30] [lightjake71@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:20:30] [lightjake71@nobisanimi.biz.id] Main | START_REGISTRATION
+[2026-06-23 08:20:32] [lightjake71@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_lightjake71 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect
+[2026-06-23 08:20:36] [lightjake71@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:20:50] [lightjake71@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:20:51] [lightjake71@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:20:51] [lightjake71@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:20:53] [lightjake71@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:20:56] [lightjake71@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 08:21:01] [lightjake71@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2p_
+[2026-06-23 08:21:02] [lightjake71@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:21:06] [lightjake71@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:21:06] [lightjake71@nobisanimi.biz.id] Canva | FILL_NAME | Name: Putri Siregar
+[2026-06-23 08:21:09] [lightjake71@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:21:14] [lightjake71@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:21:16] [lightjake71@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:21:16] [lightjake71@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 325829'
+[2026-06-23 08:21:16] [lightjake71@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 325829
+[2026-06-23 08:21:16] [lightjake71@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 325829
+[2026-06-23 08:21:17] [lightjake71@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:21:30] [lightjake71@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:21:30] [lightjake71@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:21:35] [lightjake71@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:21:35] [lightjake71@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:21:35] [lightjake71@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 08:21:41] [lightjake71@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:21:48] [lightjake71@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:22:00] [lightjake71@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:22:00] [lightjake71@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:22:27] [lightjake71@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:22:38] [lightjake71@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:22:45] [lightjake71@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:22:57] [lightjake71@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 08:23:04] [lightjake71@nobisanimi.biz.id] Extension | CONNECT_FAIL | Status: Server rejected (404): {}
+[2026-06-23 08:23:04] [lightjake71@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:23:07] [lightjake71@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:23:07] [lightjake71@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:23:07] [lightjake71@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_lightjake71.json
+[2026-06-23 08:23:11] Main | DONE
+
+--- START CANVA TEMPMAIL REGISTER BOT at 2026-06-23 08:30:49.750148 ---
+[2026-06-23 08:30:49] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:30:51] [ideallaw26@theleo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:30:51] [ideallaw26@theleo.eu.cc] Main | START_REGISTRATION
+[2026-06-23 08:30:54] [ideallaw26@theleo.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_ideallaw26 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:30:56] [ideallaw26@theleo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:31:06] [ideallaw26@theleo.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:31:06] [ideallaw26@theleo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:31:07] [ideallaw26@theleo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:31:08] [ideallaw26@theleo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:31:11] [ideallaw26@theleo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:31:16] [ideallaw26@theleo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 08:31:18] [ideallaw26@theleo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:31:22] [ideallaw26@theleo.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:31:22] [ideallaw26@theleo.eu.cc] Canva | FILL_NAME | Name: Agus Lubis
+[2026-06-23 08:31:24] [ideallaw26@theleo.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:31:29] [ideallaw26@theleo.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:31:36] [ideallaw26@theleo.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:31:36] [ideallaw26@theleo.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 881075'
+[2026-06-23 08:31:36] [ideallaw26@theleo.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 881075
+[2026-06-23 08:31:36] [ideallaw26@theleo.eu.cc] Canva | ENTER_OTP | OTP: 881075
+[2026-06-23 08:31:37] [ideallaw26@theleo.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:31:40] [ideallaw26@theleo.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:31:40] [ideallaw26@theleo.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:31:43] [ideallaw26@theleo.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:31:43] [ideallaw26@theleo.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:31:43] [ideallaw26@theleo.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:31:50] [ideallaw26@theleo.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:31:57] [ideallaw26@theleo.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:32:13] [ideallaw26@theleo.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:32:13] [ideallaw26@theleo.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:32:44] [ideallaw26@theleo.eu.cc] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 08:32:46] [ideallaw26@theleo.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:32:55] [ideallaw26@theleo.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:33:05] [ideallaw26@theleo.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:33:14] [ideallaw26@theleo.eu.cc] Leonardo | DASHBOARD_TIMEOUT
+[2026-06-23 08:33:18] Main | DONE
+
+--- START CANVA TEMPMAIL REGISTER BOT at 2026-06-23 08:33:40.834475 ---
+[2026-06-23 08:33:40] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:33:43] [fullgolf00@lampu.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:33:43] [fullgolf00@lampu.eu.cc] Main | START_REGISTRATION
+[2026-06-23 08:33:44] [fullgolf00@lampu.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_fullgolf00 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:33:46] [fullgolf00@lampu.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:33:54] [fullgolf00@lampu.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:33:55] [fullgolf00@lampu.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:33:56] [fullgolf00@lampu.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:33:57] [fullgolf00@lampu.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:33:59] [fullgolf00@lampu.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:34:05] [fullgolf00@lampu.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_25_
+[2026-06-23 08:34:06] [fullgolf00@lampu.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:34:10] [fullgolf00@lampu.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:34:11] [fullgolf00@lampu.eu.cc] Canva | FILL_NAME | Name: Joko Santoso
+[2026-06-23 08:34:13] [fullgolf00@lampu.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:34:18] [fullgolf00@lampu.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:34:20] [fullgolf00@lampu.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:34:20] [fullgolf00@lampu.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 952406'
+[2026-06-23 08:34:20] [fullgolf00@lampu.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 952406
+[2026-06-23 08:34:20] [fullgolf00@lampu.eu.cc] Canva | ENTER_OTP | OTP: 952406
+[2026-06-23 08:34:21] [fullgolf00@lampu.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:34:24] [fullgolf00@lampu.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:34:24] [fullgolf00@lampu.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:34:28] [fullgolf00@lampu.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:34:28] [fullgolf00@lampu.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:34:28] [fullgolf00@lampu.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:34:32] [fullgolf00@lampu.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:34:42] [fullgolf00@lampu.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:34:56] [fullgolf00@lampu.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:34:56] [fullgolf00@lampu.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:35:23] [fullgolf00@lampu.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:35:34] [fullgolf00@lampu.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:35:41] [fullgolf00@lampu.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:35:53] [fullgolf00@lampu.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 9s)
+[2026-06-23 08:36:02] [fullgolf00@lampu.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: fullgolf00@lampu.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:36:02] [fullgolf00@lampu.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:36:03] [fullgolf00@lampu.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:36:03] [fullgolf00@lampu.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:36:03] [fullgolf00@lampu.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_fullgolf00.json
+[2026-06-23 08:36:06] Main | DONE
+
+--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE) at 2026-06-23 08:39:43.133961 ---
+[2026-06-23 08:39:45] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:39:47] [magiciron01@leonew.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:39:47] [magiciron01@leonew.eu.cc] Main | START_REGISTRATION_RUN_1
+[2026-06-23 08:39:47] [magiciron01@leonew.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_magiciron01 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:39:49] [magiciron01@leonew.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:40:02] [magiciron01@leonew.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:40:02] [magiciron01@leonew.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:40:04] [magiciron01@leonew.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:40:06] [magiciron01@leonew.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:40:11] [magiciron01@leonew.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2h_
+[2026-06-23 08:40:13] [magiciron01@leonew.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:40:17] [magiciron01@leonew.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:40:17] [magiciron01@leonew.eu.cc] Canva | FILL_NAME | Name: Indah Ginting
+[2026-06-23 08:40:19] [magiciron01@leonew.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:40:24] [magiciron01@leonew.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:40:27] [magiciron01@leonew.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:40:27] [magiciron01@leonew.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 706362'
+[2026-06-23 08:40:27] [magiciron01@leonew.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 706362
+[2026-06-23 08:40:27] [magiciron01@leonew.eu.cc] Canva | ENTER_OTP | OTP: 706362
+[2026-06-23 08:40:28] [magiciron01@leonew.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:41:02] [magiciron01@leonew.eu.cc] Canva | WAIT_FOR_SUCCESS
+
+--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE) at 2026-06-23 08:41:28.351031 ---
+[2026-06-23 08:41:31] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:41:33] [chickoi69@kwocag.my.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:41:33] [chickoi69@kwocag.my.id] Main | START_REGISTRATION_RUN_1
+[2026-06-23 08:41:33] [chickoi69@kwocag.my.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_chickoi69 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:41:37] [chickoi69@kwocag.my.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:41:49] [chickoi69@kwocag.my.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:41:49] [chickoi69@kwocag.my.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:41:50] [chickoi69@kwocag.my.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:41:52] [chickoi69@kwocag.my.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:41:54] [chickoi69@kwocag.my.id] Canva | FILL_EMAIL
+[2026-06-23 08:41:59] [chickoi69@kwocag.my.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_6a_
+[2026-06-23 08:42:01] [chickoi69@kwocag.my.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:42:05] [chickoi69@kwocag.my.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:42:05] [chickoi69@kwocag.my.id] Canva | FILL_NAME | Name: Andi Ginting
+[2026-06-23 08:42:07] [chickoi69@kwocag.my.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:42:12] [chickoi69@kwocag.my.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:42:14] [chickoi69@kwocag.my.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:42:14] [chickoi69@kwocag.my.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 493515'
+[2026-06-23 08:42:14] [chickoi69@kwocag.my.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 493515
+[2026-06-23 08:42:14] [chickoi69@kwocag.my.id] Canva | ENTER_OTP | OTP: 493515
+[2026-06-23 08:42:16] [chickoi69@kwocag.my.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:42:18] [chickoi69@kwocag.my.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:42:18] [chickoi69@kwocag.my.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:42:24] [chickoi69@kwocag.my.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:42:24] [chickoi69@kwocag.my.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:42:24] [chickoi69@kwocag.my.id] Leonardo | START_LOGIN
+[2026-06-23 08:42:30] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:42:39] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:42:46] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:42:54] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:43:00] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:43:08] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:43:14] [chickoi69@kwocag.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:43:16] [chickoi69@kwocag.my.id] Leonardo | CANVA_CLICK_ERR | ElementHandle.click: Target page, context or browser has been closed | Call log: |   - attempting click action |     - waiting for element to be visible, enabled and stable |     - element is visible, enabled and stable |     - scrolling into view if needed |     - done scrolling |     - performing click action |     - click action done |     - waiting for scheduled navigations to finish | 
+[2026-06-23 08:43:18] [chickoi69@kwocag.my.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Target page, context or browser has been closed
+[2026-06-23 08:43:20] [chickoi69@kwocag.my.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Target page, context or browser has been closed
+
+--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE) at 2026-06-23 08:44:17.783934 ---
+[2026-06-23 08:44:19] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:44:21] [denseivy16@netpriv.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:44:21] [denseivy16@netpriv.biz.id] Main | START_REGISTRATION_RUN_1
+[2026-06-23 08:44:21] [denseivy16@netpriv.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_denseivy16 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:44:24] [denseivy16@netpriv.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:44:34] [denseivy16@netpriv.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:44:34] [denseivy16@netpriv.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:44:35] [denseivy16@netpriv.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:44:37] [denseivy16@netpriv.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:44:39] [denseivy16@netpriv.biz.id] Canva | FILL_EMAIL
+[2026-06-23 08:44:44] [denseivy16@netpriv.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 08:44:46] [denseivy16@netpriv.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:44:50] [denseivy16@netpriv.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:44:50] [denseivy16@netpriv.biz.id] Canva | FILL_NAME | Name: Rini Budiman
+[2026-06-23 08:44:53] [denseivy16@netpriv.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:44:58] [denseivy16@netpriv.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:45:00] [denseivy16@netpriv.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:45:00] [denseivy16@netpriv.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 213074'
+[2026-06-23 08:45:00] [denseivy16@netpriv.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 213074
+[2026-06-23 08:45:00] [denseivy16@netpriv.biz.id] Canva | ENTER_OTP | OTP: 213074
+[2026-06-23 08:45:01] [denseivy16@netpriv.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:45:03] [denseivy16@netpriv.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:45:03] [denseivy16@netpriv.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:45:07] [denseivy16@netpriv.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:45:07] [denseivy16@netpriv.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:45:07] [denseivy16@netpriv.biz.id] Leonardo | START_LOGIN
+[2026-06-23 08:45:13] [denseivy16@netpriv.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:45:25] [denseivy16@netpriv.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:45:42] [denseivy16@netpriv.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:45:43] [denseivy16@netpriv.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:46:13] [denseivy16@netpriv.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:46:23] [denseivy16@netpriv.biz.id] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 08:46:25] [denseivy16@netpriv.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:46:33] [denseivy16@netpriv.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:46:44] [denseivy16@netpriv.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 08:46:51] [denseivy16@netpriv.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: denseivy16@netpriv.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:46:51] [denseivy16@netpriv.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:46:52] [denseivy16@netpriv.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:46:52] [denseivy16@netpriv.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:46:52] [denseivy16@netpriv.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_denseivy16.json
+[2026-06-23 08:47:06] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:47:08] [sourkid18@leotech.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:47:08] [sourkid18@leotech.eu.cc] Main | START_REGISTRATION_RUN_2
+[2026-06-23 08:47:08] [sourkid18@leotech.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_sourkid18 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:47:09] [sourkid18@leotech.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:47:20] [sourkid18@leotech.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:47:21] [sourkid18@leotech.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:47:21] [sourkid18@leotech.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:47:23] [sourkid18@leotech.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:47:25] [sourkid18@leotech.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:47:30] [sourkid18@leotech.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 08:47:32] [sourkid18@leotech.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:47:36] [sourkid18@leotech.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:47:36] [sourkid18@leotech.eu.cc] Canva | FILL_NAME | Name: Hadi Siregar
+[2026-06-23 08:47:38] [sourkid18@leotech.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:47:43] [sourkid18@leotech.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:47:50] [sourkid18@leotech.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:47:50] [sourkid18@leotech.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 935010'
+[2026-06-23 08:47:50] [sourkid18@leotech.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 935010
+[2026-06-23 08:47:51] [sourkid18@leotech.eu.cc] Canva | ENTER_OTP | OTP: 935010
+[2026-06-23 08:47:51] [sourkid18@leotech.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:47:54] [sourkid18@leotech.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:47:54] [sourkid18@leotech.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:47:59] [sourkid18@leotech.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:47:59] [sourkid18@leotech.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:47:59] [sourkid18@leotech.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:48:06] [sourkid18@leotech.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:48:13] [sourkid18@leotech.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:48:29] [sourkid18@leotech.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:48:29] [sourkid18@leotech.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:48:54] [sourkid18@leotech.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 25s)
+[2026-06-23 08:49:06] [sourkid18@leotech.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: sourkid18@leotech.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:49:06] [sourkid18@leotech.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:49:08] [sourkid18@leotech.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:49:08] [sourkid18@leotech.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:49:08] [sourkid18@leotech.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_sourkid18.json
+[2026-06-23 08:49:21] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:49:23] [naivecoin68@kicau.sapiderman.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:49:23] [naivecoin68@kicau.sapiderman.eu.cc] Main | START_REGISTRATION_RUN_3
+[2026-06-23 08:49:23] [naivecoin68@kicau.sapiderman.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_naivecoin68 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:49:24] [naivecoin68@kicau.sapiderman.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:49:33] [naivecoin68@kicau.sapiderman.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:49:34] [naivecoin68@kicau.sapiderman.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:49:34] [naivecoin68@kicau.sapiderman.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:49:36] [naivecoin68@kicau.sapiderman.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:49:38] [naivecoin68@kicau.sapiderman.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:49:43] [naivecoin68@kicau.sapiderman.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2e_
+[2026-06-23 08:49:46] [naivecoin68@kicau.sapiderman.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:49:50] [naivecoin68@kicau.sapiderman.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:49:50] [naivecoin68@kicau.sapiderman.eu.cc] Canva | FILL_NAME | Name: Fajar Pratama
+[2026-06-23 08:49:52] [naivecoin68@kicau.sapiderman.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:49:57] [naivecoin68@kicau.sapiderman.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:49:59] [naivecoin68@kicau.sapiderman.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:49:59] [naivecoin68@kicau.sapiderman.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 348315'
+[2026-06-23 08:49:59] [naivecoin68@kicau.sapiderman.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 348315
+[2026-06-23 08:49:59] [naivecoin68@kicau.sapiderman.eu.cc] Canva | ENTER_OTP | OTP: 348315
+[2026-06-23 08:50:00] [naivecoin68@kicau.sapiderman.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:50:03] [naivecoin68@kicau.sapiderman.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:50:03] [naivecoin68@kicau.sapiderman.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:50:06] [naivecoin68@kicau.sapiderman.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:50:06] [naivecoin68@kicau.sapiderman.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:50:06] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:50:11] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:50:21] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:50:35] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:50:35] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:50:54] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:51:08] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:51:13] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:51:43] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:51:46] [naivecoin68@kicau.sapiderman.eu.cc] Leonardo | DASHBOARD_TIMEOUT
+[2026-06-23 08:52:00] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:52:02] [deepamy16@imleo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:52:02] [deepamy16@imleo.eu.cc] Main | START_REGISTRATION_RUN_4
+[2026-06-23 08:52:02] [deepamy16@imleo.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_deepamy16 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:52:05] [deepamy16@imleo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:52:14] [deepamy16@imleo.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:52:14] [deepamy16@imleo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:52:15] [deepamy16@imleo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:52:17] [deepamy16@imleo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:52:19] [deepamy16@imleo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:52:24] [deepamy16@imleo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 08:52:26] [deepamy16@imleo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:52:30] [deepamy16@imleo.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:52:55] [deepamy16@imleo.eu.cc] Canva | FILL_NAME | Name: Dewi Siregar
+[2026-06-23 08:52:57] [deepamy16@imleo.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:53:02] [deepamy16@imleo.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:53:04] [deepamy16@imleo.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:53:04] [deepamy16@imleo.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 764308'
+[2026-06-23 08:53:04] [deepamy16@imleo.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 764308
+[2026-06-23 08:53:04] [deepamy16@imleo.eu.cc] Canva | ENTER_OTP | OTP: 764308
+[2026-06-23 08:53:06] [deepamy16@imleo.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:53:08] [deepamy16@imleo.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:53:08] [deepamy16@imleo.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:53:12] [deepamy16@imleo.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:53:12] [deepamy16@imleo.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:53:12] [deepamy16@imleo.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:53:16] [deepamy16@imleo.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:53:26] [deepamy16@imleo.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:53:41] [deepamy16@imleo.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:53:41] [deepamy16@imleo.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:54:10] [deepamy16@imleo.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 28s)
+[2026-06-23 08:54:24] [deepamy16@imleo.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: deepamy16@imleo.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:54:24] [deepamy16@imleo.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:54:26] [deepamy16@imleo.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:54:26] [deepamy16@imleo.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:54:26] [deepamy16@imleo.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_deepamy16.json
+[2026-06-23 08:54:39] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:54:40] [breezyjon38@leopro.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:54:40] [breezyjon38@leopro.eu.cc] Main | START_REGISTRATION_RUN_5
+[2026-06-23 08:54:40] [breezyjon38@leopro.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_breezyjon38 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:54:42] [breezyjon38@leopro.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:54:50] [breezyjon38@leopro.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:54:51] [breezyjon38@leopro.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:54:51] [breezyjon38@leopro.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:54:53] [breezyjon38@leopro.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:54:55] [breezyjon38@leopro.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:55:00] [breezyjon38@leopro.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1v_
+[2026-06-23 08:55:01] [breezyjon38@leopro.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:55:05] [breezyjon38@leopro.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:55:05] [breezyjon38@leopro.eu.cc] Canva | FILL_NAME | Name: Nugroho Gunawan
+[2026-06-23 08:55:08] [breezyjon38@leopro.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:55:13] [breezyjon38@leopro.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:55:15] [breezyjon38@leopro.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:55:15] [breezyjon38@leopro.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 998864'
+[2026-06-23 08:55:15] [breezyjon38@leopro.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 998864
+[2026-06-23 08:55:15] [breezyjon38@leopro.eu.cc] Canva | ENTER_OTP | OTP: 998864
+[2026-06-23 08:55:16] [breezyjon38@leopro.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:55:19] [breezyjon38@leopro.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:55:19] [breezyjon38@leopro.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:55:24] [breezyjon38@leopro.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:55:24] [breezyjon38@leopro.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:55:24] [breezyjon38@leopro.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:55:29] [breezyjon38@leopro.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:55:38] [breezyjon38@leopro.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:55:53] [breezyjon38@leopro.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:55:53] [breezyjon38@leopro.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:56:17] [breezyjon38@leopro.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 08:56:25] [breezyjon38@leopro.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 08:56:35] [breezyjon38@leopro.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 08:56:46] [breezyjon38@leopro.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 10s)
+[2026-06-23 08:56:54] [breezyjon38@leopro.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: breezyjon38@leopro.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:56:54] [breezyjon38@leopro.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:56:55] [breezyjon38@leopro.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:56:55] [breezyjon38@leopro.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:56:55] [breezyjon38@leopro.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_breezyjon38.json
+[2026-06-23 08:57:08] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:57:10] [stricthome39@leonew.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:57:10] [stricthome39@leonew.eu.cc] Main | START_REGISTRATION_RUN_6
+[2026-06-23 08:57:10] [stricthome39@leonew.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_stricthome39 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:57:12] [stricthome39@leonew.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:57:20] [stricthome39@leonew.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:57:21] [stricthome39@leonew.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:57:21] [stricthome39@leonew.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:57:23] [stricthome39@leonew.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:57:25] [stricthome39@leonew.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:57:30] [stricthome39@leonew.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 08:57:33] [stricthome39@leonew.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:57:37] [stricthome39@leonew.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:57:37] [stricthome39@leonew.eu.cc] Canva | FILL_NAME | Name: Prasetyo Kurniawan
+[2026-06-23 08:57:40] [stricthome39@leonew.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:57:45] [stricthome39@leonew.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:57:46] [stricthome39@leonew.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:57:46] [stricthome39@leonew.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 616446'
+[2026-06-23 08:57:46] [stricthome39@leonew.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 616446
+[2026-06-23 08:57:46] [stricthome39@leonew.eu.cc] Canva | ENTER_OTP | OTP: 616446
+[2026-06-23 08:57:47] [stricthome39@leonew.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:57:50] [stricthome39@leonew.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:57:50] [stricthome39@leonew.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 08:57:53] [stricthome39@leonew.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 08:57:53] [stricthome39@leonew.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 08:57:53] [stricthome39@leonew.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 08:57:59] [stricthome39@leonew.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 08:58:09] [stricthome39@leonew.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 08:58:24] [stricthome39@leonew.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 08:58:24] [stricthome39@leonew.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 08:58:46] [stricthome39@leonew.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 21s)
+[2026-06-23 08:58:59] [stricthome39@leonew.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: stricthome39@leonew.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 08:58:59] [stricthome39@leonew.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 08:59:00] [stricthome39@leonew.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 08:59:00] [stricthome39@leonew.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 08:59:00] [stricthome39@leonew.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_stricthome39.json
+[2026-06-23 08:59:13] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 08:59:15] [fastdon12@myleo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 08:59:15] [fastdon12@myleo.eu.cc] Main | START_REGISTRATION_RUN_7
+[2026-06-23 08:59:15] [fastdon12@myleo.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_fastdon12 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 08:59:17] [fastdon12@myleo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 08:59:29] [fastdon12@myleo.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 08:59:29] [fastdon12@myleo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 08:59:30] [fastdon12@myleo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 08:59:31] [fastdon12@myleo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 08:59:33] [fastdon12@myleo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 08:59:38] [fastdon12@myleo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1v_
+[2026-06-23 08:59:40] [fastdon12@myleo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 08:59:44] [fastdon12@myleo.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 08:59:44] [fastdon12@myleo.eu.cc] Canva | FILL_NAME | Name: Adi Lubis
+[2026-06-23 08:59:46] [fastdon12@myleo.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 08:59:51] [fastdon12@myleo.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 08:59:54] [fastdon12@myleo.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 08:59:54] [fastdon12@myleo.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 270628'
+[2026-06-23 08:59:54] [fastdon12@myleo.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 270628
+[2026-06-23 08:59:54] [fastdon12@myleo.eu.cc] Canva | ENTER_OTP | OTP: 270628
+[2026-06-23 08:59:55] [fastdon12@myleo.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 08:59:57] [fastdon12@myleo.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 08:59:57] [fastdon12@myleo.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:00:02] [fastdon12@myleo.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:00:02] [fastdon12@myleo.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:00:02] [fastdon12@myleo.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:00:09] [fastdon12@myleo.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:00:17] [fastdon12@myleo.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:00:30] [fastdon12@myleo.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:00:30] [fastdon12@myleo.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:00:38] [fastdon12@myleo.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:01:01] [fastdon12@myleo.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:01:11] [fastdon12@myleo.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:01:21] [fastdon12@myleo.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 9s)
+[2026-06-23 09:01:29] [fastdon12@myleo.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: fastdon12@myleo.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:01:29] [fastdon12@myleo.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:01:29] [fastdon12@myleo.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:01:29] [fastdon12@myleo.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:01:30] [fastdon12@myleo.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_fastdon12.json
+[2026-06-23 09:01:45] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:01:47] [mutespy80@leohits.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:01:47] [mutespy80@leohits.eu.cc] Main | START_REGISTRATION_RUN_8
+[2026-06-23 09:01:47] [mutespy80@leohits.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_mutespy80 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:01:48] [mutespy80@leohits.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:01:57] [mutespy80@leohits.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:01:57] [mutespy80@leohits.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:01:58] [mutespy80@leohits.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:02:00] [mutespy80@leohits.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:02:02] [mutespy80@leohits.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:02:07] [mutespy80@leohits.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 09:02:09] [mutespy80@leohits.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:02:13] [mutespy80@leohits.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:02:13] [mutespy80@leohits.eu.cc] Canva | FILL_NAME | Name: Hadi Utami
+[2026-06-23 09:02:15] [mutespy80@leohits.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:02:20] [mutespy80@leohits.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:02:23] [mutespy80@leohits.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:02:23] [mutespy80@leohits.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 510638'
+[2026-06-23 09:02:23] [mutespy80@leohits.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 510638
+[2026-06-23 09:02:23] [mutespy80@leohits.eu.cc] Canva | ENTER_OTP | OTP: 510638
+[2026-06-23 09:02:24] [mutespy80@leohits.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:02:26] [mutespy80@leohits.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:02:26] [mutespy80@leohits.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:02:31] [mutespy80@leohits.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:02:31] [mutespy80@leohits.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:02:31] [mutespy80@leohits.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:02:36] [mutespy80@leohits.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:02:44] [mutespy80@leohits.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:02:58] [mutespy80@leohits.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:02:58] [mutespy80@leohits.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:03:24] [mutespy80@leohits.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:03:33] [mutespy80@leohits.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:03:41] [mutespy80@leohits.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:03:52] [mutespy80@leohits.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:04:01] [mutespy80@leohits.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: mutespy80@leohits.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:04:01] [mutespy80@leohits.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:04:02] [mutespy80@leohits.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:04:02] [mutespy80@leohits.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:04:02] [mutespy80@leohits.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_mutespy80.json
+[2026-06-23 09:04:16] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:04:17] [idledock71@leoin.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:04:17] [idledock71@leoin.eu.cc] Main | START_REGISTRATION_RUN_9
+[2026-06-23 09:04:17] [idledock71@leoin.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_idledock71 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:04:19] [idledock71@leoin.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:04:27] [idledock71@leoin.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:04:27] [idledock71@leoin.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:04:28] [idledock71@leoin.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:04:29] [idledock71@leoin.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:04:31] [idledock71@leoin.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:04:37] [idledock71@leoin.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 09:04:39] [idledock71@leoin.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:04:43] [idledock71@leoin.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:04:43] [idledock71@leoin.eu.cc] Canva | FILL_NAME | Name: Andi Hidayat
+[2026-06-23 09:04:45] [idledock71@leoin.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:04:50] [idledock71@leoin.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:04:52] [idledock71@leoin.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:04:52] [idledock71@leoin.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 803705'
+[2026-06-23 09:04:52] [idledock71@leoin.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 803705
+[2026-06-23 09:04:52] [idledock71@leoin.eu.cc] Canva | ENTER_OTP | OTP: 803705
+[2026-06-23 09:04:53] [idledock71@leoin.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:04:55] [idledock71@leoin.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:04:55] [idledock71@leoin.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:04:59] [idledock71@leoin.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:04:59] [idledock71@leoin.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:04:59] [idledock71@leoin.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:05:04] [idledock71@leoin.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:05:14] [idledock71@leoin.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:05:26] [idledock71@leoin.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:05:26] [idledock71@leoin.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:05:52] [idledock71@leoin.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 26s)
+[2026-06-23 09:06:07] [idledock71@leoin.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: idledock71@leoin.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:06:07] [idledock71@leoin.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:06:07] [idledock71@leoin.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:06:07] [idledock71@leoin.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:06:07] [idledock71@leoin.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_idledock71.json
+[2026-06-23 09:06:20] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:06:23] [realidol39@lisensify.com] Lisensify | REJECTED_LISENSIFY_DOMAIN | Retrying for a custom domain...
+[2026-06-23 09:06:23] Lisensify | GENERATE_REQUEST_ATTEMPT_2
+[2026-06-23 09:06:24] [vitalflow56@getcodemail.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:06:24] [vitalflow56@getcodemail.eu.cc] Main | START_REGISTRATION_RUN_10
+[2026-06-23 09:06:24] [vitalflow56@getcodemail.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_vitalflow56 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:06:26] [vitalflow56@getcodemail.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:06:35] [vitalflow56@getcodemail.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:06:36] [vitalflow56@getcodemail.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:06:36] [vitalflow56@getcodemail.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:06:38] [vitalflow56@getcodemail.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:06:40] [vitalflow56@getcodemail.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:06:45] [vitalflow56@getcodemail.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 09:06:47] [vitalflow56@getcodemail.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:06:51] [vitalflow56@getcodemail.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:06:51] [vitalflow56@getcodemail.eu.cc] Canva | FILL_NAME | Name: Indah Utami
+[2026-06-23 09:06:54] [vitalflow56@getcodemail.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:06:59] [vitalflow56@getcodemail.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:07:00] [vitalflow56@getcodemail.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:07:00] [vitalflow56@getcodemail.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 888855'
+[2026-06-23 09:07:00] [vitalflow56@getcodemail.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 888855
+[2026-06-23 09:07:00] [vitalflow56@getcodemail.eu.cc] Canva | ENTER_OTP | OTP: 888855
+[2026-06-23 09:07:02] [vitalflow56@getcodemail.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:07:04] [vitalflow56@getcodemail.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:07:04] [vitalflow56@getcodemail.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:07:09] [vitalflow56@getcodemail.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:07:09] [vitalflow56@getcodemail.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:07:09] [vitalflow56@getcodemail.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:07:15] [vitalflow56@getcodemail.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:07:24] [vitalflow56@getcodemail.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:07:40] [vitalflow56@getcodemail.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:07:40] [vitalflow56@getcodemail.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:08:07] [vitalflow56@getcodemail.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 27s)
+[2026-06-23 09:08:21] [vitalflow56@getcodemail.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: vitalflow56@getcodemail.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:08:21] [vitalflow56@getcodemail.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:08:23] [vitalflow56@getcodemail.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:08:23] [vitalflow56@getcodemail.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:08:23] [vitalflow56@getcodemail.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_vitalflow56.json
+[2026-06-23 09:08:36] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:08:38] [jumpyscout56@kuipmail.club] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:08:38] [jumpyscout56@kuipmail.club] Main | START_REGISTRATION_RUN_11
+[2026-06-23 09:08:38] [jumpyscout56@kuipmail.club] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_jumpyscout56 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:08:39] [jumpyscout56@kuipmail.club] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:08:48] [jumpyscout56@kuipmail.club] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:08:49] [jumpyscout56@kuipmail.club] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:08:49] [jumpyscout56@kuipmail.club] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:08:51] [jumpyscout56@kuipmail.club] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:08:53] [jumpyscout56@kuipmail.club] Canva | FILL_EMAIL
+[2026-06-23 09:08:58] [jumpyscout56@kuipmail.club] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_6b_
+[2026-06-23 09:09:01] [jumpyscout56@kuipmail.club] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:09:05] [jumpyscout56@kuipmail.club] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:09:05] [jumpyscout56@kuipmail.club] Canva | FILL_NAME | Name: Hadi Budiman
+[2026-06-23 09:09:07] [jumpyscout56@kuipmail.club] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:09:12] [jumpyscout56@kuipmail.club] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:09:14] [jumpyscout56@kuipmail.club] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:09:14] [jumpyscout56@kuipmail.club] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 712330'
+[2026-06-23 09:09:14] [jumpyscout56@kuipmail.club] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 712330
+[2026-06-23 09:09:14] [jumpyscout56@kuipmail.club] Canva | ENTER_OTP | OTP: 712330
+[2026-06-23 09:09:15] [jumpyscout56@kuipmail.club] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:09:18] [jumpyscout56@kuipmail.club] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:09:18] [jumpyscout56@kuipmail.club] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:09:23] [jumpyscout56@kuipmail.club] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:09:23] [jumpyscout56@kuipmail.club] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:09:23] [jumpyscout56@kuipmail.club] Leonardo | START_LOGIN
+[2026-06-23 09:09:31] [jumpyscout56@kuipmail.club] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:09:38] [jumpyscout56@kuipmail.club] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:09:49] [jumpyscout56@kuipmail.club] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:09:49] [jumpyscout56@kuipmail.club] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:10:18] [jumpyscout56@kuipmail.club] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:10:32] [jumpyscout56@kuipmail.club] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:10:39] [jumpyscout56@kuipmail.club] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:10:50] [jumpyscout56@kuipmail.club] Leonardo | DASHBOARD_TIMEOUT
+[2026-06-23 09:11:06] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:11:07] [lushcomet75@hileo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:11:07] [lushcomet75@hileo.eu.cc] Main | START_REGISTRATION_RUN_12
+[2026-06-23 09:11:07] [lushcomet75@hileo.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_lushcomet75 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:11:10] [lushcomet75@hileo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:11:23] [lushcomet75@hileo.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:11:23] [lushcomet75@hileo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:11:24] [lushcomet75@hileo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:11:26] [lushcomet75@hileo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:11:28] [lushcomet75@hileo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:11:33] [lushcomet75@hileo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1v_
+[2026-06-23 09:11:35] [lushcomet75@hileo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:11:39] [lushcomet75@hileo.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:11:39] [lushcomet75@hileo.eu.cc] Canva | FILL_NAME | Name: Nugroho Wijaya
+[2026-06-23 09:11:41] [lushcomet75@hileo.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:11:46] [lushcomet75@hileo.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:11:48] [lushcomet75@hileo.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:11:48] [lushcomet75@hileo.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 606796'
+[2026-06-23 09:11:48] [lushcomet75@hileo.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 606796
+[2026-06-23 09:11:48] [lushcomet75@hileo.eu.cc] Canva | ENTER_OTP | OTP: 606796
+[2026-06-23 09:11:50] [lushcomet75@hileo.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:11:52] [lushcomet75@hileo.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:11:52] [lushcomet75@hileo.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:11:57] [lushcomet75@hileo.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:11:57] [lushcomet75@hileo.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:11:57] [lushcomet75@hileo.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:12:02] [lushcomet75@hileo.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:12:09] [lushcomet75@hileo.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:12:25] [lushcomet75@hileo.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:12:25] [lushcomet75@hileo.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:12:49] [lushcomet75@hileo.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:12:59] [lushcomet75@hileo.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:13:08] [lushcomet75@hileo.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:13:17] [lushcomet75@hileo.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:13:30] [lushcomet75@hileo.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: lushcomet75@hileo.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:13:30] [lushcomet75@hileo.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:13:31] [lushcomet75@hileo.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:13:31] [lushcomet75@hileo.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:13:31] [lushcomet75@hileo.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_lushcomet75.json
+[2026-06-23 09:13:44] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:13:45] [tealstag55@myleo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:13:45] [tealstag55@myleo.eu.cc] Main | START_REGISTRATION_RUN_13
+[2026-06-23 09:13:45] [tealstag55@myleo.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_tealstag55 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:13:47] [tealstag55@myleo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:13:56] [tealstag55@myleo.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:13:57] [tealstag55@myleo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:13:57] [tealstag55@myleo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:13:59] [tealstag55@myleo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:14:01] [tealstag55@myleo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:14:06] [tealstag55@myleo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2d_
+[2026-06-23 09:14:07] [tealstag55@myleo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:14:11] [tealstag55@myleo.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:14:11] [tealstag55@myleo.eu.cc] Canva | FILL_NAME | Name: Nugroho Siregar
+[2026-06-23 09:14:13] [tealstag55@myleo.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:14:18] [tealstag55@myleo.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:14:20] [tealstag55@myleo.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:14:20] [tealstag55@myleo.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 110343'
+[2026-06-23 09:14:20] [tealstag55@myleo.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 110343
+[2026-06-23 09:14:20] [tealstag55@myleo.eu.cc] Canva | ENTER_OTP | OTP: 110343
+[2026-06-23 09:14:21] [tealstag55@myleo.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:14:24] [tealstag55@myleo.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:14:24] [tealstag55@myleo.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:14:27] [tealstag55@myleo.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:14:27] [tealstag55@myleo.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:14:27] [tealstag55@myleo.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:14:32] [tealstag55@myleo.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:14:39] [tealstag55@myleo.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:14:51] [tealstag55@myleo.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:14:51] [tealstag55@myleo.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:15:19] [tealstag55@myleo.eu.cc] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:15:22] [tealstag55@myleo.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:15:27] [tealstag55@myleo.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:15:35] [tealstag55@myleo.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:15:46] [tealstag55@myleo.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:15:54] [tealstag55@myleo.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: tealstag55@myleo.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:15:54] [tealstag55@myleo.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:15:55] [tealstag55@myleo.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:15:55] [tealstag55@myleo.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:15:55] [tealstag55@myleo.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_tealstag55.json
+[2026-06-23 09:16:08] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:16:09] [cheerydial78@lampu.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:16:09] [cheerydial78@lampu.eu.cc] Main | START_REGISTRATION_RUN_14
+[2026-06-23 09:16:09] [cheerydial78@lampu.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_cheerydial78 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:16:10] [cheerydial78@lampu.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:16:18] [cheerydial78@lampu.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:16:18] [cheerydial78@lampu.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:16:18] [cheerydial78@lampu.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:16:20] [cheerydial78@lampu.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:16:22] [cheerydial78@lampu.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:16:27] [cheerydial78@lampu.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_90_
+[2026-06-23 09:16:29] [cheerydial78@lampu.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:16:33] [cheerydial78@lampu.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:16:33] [cheerydial78@lampu.eu.cc] Canva | FILL_NAME | Name: Prasetyo Sari
+[2026-06-23 09:16:35] [cheerydial78@lampu.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:16:40] [cheerydial78@lampu.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:16:42] [cheerydial78@lampu.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:16:42] [cheerydial78@lampu.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 197741'
+[2026-06-23 09:16:42] [cheerydial78@lampu.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 197741
+[2026-06-23 09:16:42] [cheerydial78@lampu.eu.cc] Canva | ENTER_OTP | OTP: 197741
+[2026-06-23 09:16:43] [cheerydial78@lampu.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:16:45] [cheerydial78@lampu.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:16:45] [cheerydial78@lampu.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:16:50] [cheerydial78@lampu.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:16:50] [cheerydial78@lampu.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:16:50] [cheerydial78@lampu.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:16:56] [cheerydial78@lampu.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:17:03] [cheerydial78@lampu.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:17:14] [cheerydial78@lampu.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:17:14] [cheerydial78@lampu.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:17:37] [cheerydial78@lampu.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:17:49] [cheerydial78@lampu.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:18:01] [cheerydial78@lampu.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:18:10] [cheerydial78@lampu.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:18:17] [cheerydial78@lampu.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: cheerydial78@lampu.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:18:17] [cheerydial78@lampu.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:18:18] [cheerydial78@lampu.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:18:18] [cheerydial78@lampu.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:18:18] [cheerydial78@lampu.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_cheerydial78.json
+[2026-06-23 09:18:31] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:18:32] [majordeer05@modiminima.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:18:32] [majordeer05@modiminima.biz.id] Main | START_REGISTRATION_RUN_15
+[2026-06-23 09:18:32] [majordeer05@modiminima.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_majordeer05 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:18:34] [majordeer05@modiminima.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:18:42] [majordeer05@modiminima.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:18:43] [majordeer05@modiminima.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:18:43] [majordeer05@modiminima.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:18:45] [majordeer05@modiminima.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:18:47] [majordeer05@modiminima.biz.id] Canva | FILL_EMAIL
+[2026-06-23 09:18:52] [majordeer05@modiminima.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_ao_
+[2026-06-23 09:18:53] [majordeer05@modiminima.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:18:57] [majordeer05@modiminima.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:18:57] [majordeer05@modiminima.biz.id] Canva | FILL_NAME | Name: Adi Ginting
+[2026-06-23 09:19:00] [majordeer05@modiminima.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:19:05] [majordeer05@modiminima.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:19:07] [majordeer05@modiminima.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:19:07] [majordeer05@modiminima.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 393695'
+[2026-06-23 09:19:07] [majordeer05@modiminima.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 393695
+[2026-06-23 09:19:07] [majordeer05@modiminima.biz.id] Canva | ENTER_OTP | OTP: 393695
+[2026-06-23 09:19:08] [majordeer05@modiminima.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:19:10] [majordeer05@modiminima.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:19:10] [majordeer05@modiminima.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:19:13] [majordeer05@modiminima.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:19:13] [majordeer05@modiminima.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:19:13] [majordeer05@modiminima.biz.id] Leonardo | START_LOGIN
+[2026-06-23 09:19:19] [majordeer05@modiminima.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:19:27] [majordeer05@modiminima.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:19:39] [majordeer05@modiminima.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:19:39] [majordeer05@modiminima.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:19:55] [majordeer05@modiminima.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:20:13] [majordeer05@modiminima.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:20:20] [majordeer05@modiminima.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:20:31] [majordeer05@modiminima.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:20:39] [majordeer05@modiminima.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: majordeer05@modiminima.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:20:39] [majordeer05@modiminima.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:20:40] [majordeer05@modiminima.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:20:40] [majordeer05@modiminima.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:20:40] [majordeer05@modiminima.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_majordeer05.json
+[2026-06-23 09:20:53] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:20:54] [cooltara75@lisensify.com] Lisensify | REJECTED_LISENSIFY_DOMAIN | Retrying for a custom domain...
+[2026-06-23 09:20:54] Lisensify | GENERATE_REQUEST_ATTEMPT_2
+[2026-06-23 09:20:55] [goodada53@kuipmail.club] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:20:55] [goodada53@kuipmail.club] Main | START_REGISTRATION_RUN_16
+[2026-06-23 09:20:55] [goodada53@kuipmail.club] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_goodada53 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:20:57] [goodada53@kuipmail.club] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:21:07] [goodada53@kuipmail.club] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:21:08] [goodada53@kuipmail.club] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:21:08] [goodada53@kuipmail.club] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:21:10] [goodada53@kuipmail.club] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:21:12] [goodada53@kuipmail.club] Canva | FILL_EMAIL
+[2026-06-23 09:21:17] [goodada53@kuipmail.club] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_8b_
+[2026-06-23 09:21:19] [goodada53@kuipmail.club] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:21:23] [goodada53@kuipmail.club] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:21:24] [goodada53@kuipmail.club] Canva | FILL_NAME | Name: Agus Lubis
+[2026-06-23 09:21:26] [goodada53@kuipmail.club] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:21:31] [goodada53@kuipmail.club] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:21:32] [goodada53@kuipmail.club] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:21:32] [goodada53@kuipmail.club] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 280081'
+[2026-06-23 09:21:32] [goodada53@kuipmail.club] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 280081
+[2026-06-23 09:21:32] [goodada53@kuipmail.club] Canva | ENTER_OTP | OTP: 280081
+[2026-06-23 09:21:33] [goodada53@kuipmail.club] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:21:36] [goodada53@kuipmail.club] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:21:36] [goodada53@kuipmail.club] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:21:39] [goodada53@kuipmail.club] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:21:39] [goodada53@kuipmail.club] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:21:39] [goodada53@kuipmail.club] Leonardo | START_LOGIN
+[2026-06-23 09:21:44] [goodada53@kuipmail.club] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:21:51] [goodada53@kuipmail.club] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:22:02] [goodada53@kuipmail.club] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:22:02] [goodada53@kuipmail.club] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:22:23] [goodada53@kuipmail.club] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:22:34] [goodada53@kuipmail.club] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:22:37] [goodada53@kuipmail.club] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:22:41] [goodada53@kuipmail.club] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:23:12] [goodada53@kuipmail.club] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:23:14] [goodada53@kuipmail.club] Leonardo | DASHBOARD_TIMEOUT
+[2026-06-23 09:23:28] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:23:29] [tallhost95@leohub.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:23:29] [tallhost95@leohub.eu.cc] Main | START_REGISTRATION_RUN_17
+[2026-06-23 09:23:29] [tallhost95@leohub.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_tallhost95 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:23:30] [tallhost95@leohub.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:23:39] [tallhost95@leohub.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:23:40] [tallhost95@leohub.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:23:40] [tallhost95@leohub.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:23:42] [tallhost95@leohub.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:23:44] [tallhost95@leohub.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:23:49] [tallhost95@leohub.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1v_
+[2026-06-23 09:23:50] [tallhost95@leohub.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:23:54] [tallhost95@leohub.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:23:54] [tallhost95@leohub.eu.cc] Canva | FILL_NAME | Name: Rini Utami
+[2026-06-23 09:23:56] [tallhost95@leohub.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:24:01] [tallhost95@leohub.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:24:03] [tallhost95@leohub.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:24:03] [tallhost95@leohub.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 212976'
+[2026-06-23 09:24:03] [tallhost95@leohub.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 212976
+[2026-06-23 09:24:03] [tallhost95@leohub.eu.cc] Canva | ENTER_OTP | OTP: 212976
+[2026-06-23 09:24:04] [tallhost95@leohub.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:24:06] [tallhost95@leohub.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:24:06] [tallhost95@leohub.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:24:11] [tallhost95@leohub.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:24:11] [tallhost95@leohub.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:24:11] [tallhost95@leohub.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:24:16] [tallhost95@leohub.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:24:25] [tallhost95@leohub.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:24:37] [tallhost95@leohub.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:24:37] [tallhost95@leohub.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:24:52] [tallhost95@leohub.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 14s)
+[2026-06-23 09:25:07] [tallhost95@leohub.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: tallhost95@leohub.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:25:07] [tallhost95@leohub.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:25:11] [tallhost95@leohub.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:25:11] [tallhost95@leohub.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:25:11] [tallhost95@leohub.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_tallhost95.json
+[2026-06-23 09:25:23] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:25:25] [ripeyam66@getcodemail.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:25:25] [ripeyam66@getcodemail.eu.cc] Main | START_REGISTRATION_RUN_18
+[2026-06-23 09:25:25] [ripeyam66@getcodemail.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_ripeyam66 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:25:26] [ripeyam66@getcodemail.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:25:34] [ripeyam66@getcodemail.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:25:35] [ripeyam66@getcodemail.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:25:35] [ripeyam66@getcodemail.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:25:37] [ripeyam66@getcodemail.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:25:39] [ripeyam66@getcodemail.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:25:44] [ripeyam66@getcodemail.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2u_
+[2026-06-23 09:25:45] [ripeyam66@getcodemail.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:25:49] [ripeyam66@getcodemail.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:25:49] [ripeyam66@getcodemail.eu.cc] Canva | FILL_NAME | Name: Mega Setiawan
+[2026-06-23 09:25:51] [ripeyam66@getcodemail.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:25:56] [ripeyam66@getcodemail.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:25:57] [ripeyam66@getcodemail.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:25:57] [ripeyam66@getcodemail.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 998731'
+[2026-06-23 09:25:57] [ripeyam66@getcodemail.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 998731
+[2026-06-23 09:25:57] [ripeyam66@getcodemail.eu.cc] Canva | ENTER_OTP | OTP: 998731
+[2026-06-23 09:25:58] [ripeyam66@getcodemail.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:26:01] [ripeyam66@getcodemail.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:26:01] [ripeyam66@getcodemail.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:26:04] [ripeyam66@getcodemail.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:26:04] [ripeyam66@getcodemail.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:26:04] [ripeyam66@getcodemail.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:26:08] [ripeyam66@getcodemail.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:26:18] [ripeyam66@getcodemail.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:26:30] [ripeyam66@getcodemail.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:26:30] [ripeyam66@getcodemail.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:26:52] [ripeyam66@getcodemail.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:27:01] [ripeyam66@getcodemail.eu.cc] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:27:05] [ripeyam66@getcodemail.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:27:08] [ripeyam66@getcodemail.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:27:40] [ripeyam66@getcodemail.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:27:42] [ripeyam66@getcodemail.eu.cc] Leonardo | DASHBOARD_TIMEOUT
+[2026-06-23 09:27:56] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:27:57] [strictali24@kicau.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:27:58] [strictali24@kicau.eu.cc] Main | START_REGISTRATION_RUN_19
+[2026-06-23 09:27:58] [strictali24@kicau.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_strictali24 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:28:02] [strictali24@kicau.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:28:11] [strictali24@kicau.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:28:11] [strictali24@kicau.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:28:11] [strictali24@kicau.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:28:13] [strictali24@kicau.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:28:15] [strictali24@kicau.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:28:20] [strictali24@kicau.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_8b_
+[2026-06-23 09:28:22] [strictali24@kicau.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:28:26] [strictali24@kicau.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:28:26] [strictali24@kicau.eu.cc] Canva | FILL_NAME | Name: Hadi Saputra
+[2026-06-23 09:28:28] [strictali24@kicau.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:28:33] [strictali24@kicau.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:28:36] [strictali24@kicau.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:28:36] [strictali24@kicau.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 549974'
+[2026-06-23 09:28:36] [strictali24@kicau.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 549974
+[2026-06-23 09:28:36] [strictali24@kicau.eu.cc] Canva | ENTER_OTP | OTP: 549974
+[2026-06-23 09:28:37] [strictali24@kicau.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:28:39] [strictali24@kicau.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:28:39] [strictali24@kicau.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:28:42] [strictali24@kicau.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:28:42] [strictali24@kicau.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:28:42] [strictali24@kicau.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:28:47] [strictali24@kicau.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:28:55] [strictali24@kicau.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:29:03] [strictali24@kicau.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:29:03] [strictali24@kicau.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:29:24] [strictali24@kicau.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:29:35] [strictali24@kicau.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:29:43] [strictali24@kicau.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:29:54] [strictali24@kicau.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:30:02] [strictali24@kicau.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: strictali24@kicau.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:30:02] [strictali24@kicau.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:30:03] [strictali24@kicau.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:30:03] [strictali24@kicau.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:30:03] [strictali24@kicau.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_strictali24.json
+[2026-06-23 09:30:16] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:30:17] [hothorn65@leoin.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:30:17] [hothorn65@leoin.eu.cc] Main | START_REGISTRATION_RUN_20
+[2026-06-23 09:30:17] [hothorn65@leoin.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_hothorn65 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:30:21] [hothorn65@leoin.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:30:29] [hothorn65@leoin.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:30:30] [hothorn65@leoin.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:30:30] [hothorn65@leoin.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:30:32] [hothorn65@leoin.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:30:34] [hothorn65@leoin.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:30:39] [hothorn65@leoin.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_as_
+[2026-06-23 09:30:40] [hothorn65@leoin.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:30:44] [hothorn65@leoin.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:30:44] [hothorn65@leoin.eu.cc] Canva | FILL_NAME | Name: Joko Siregar
+[2026-06-23 09:30:46] [hothorn65@leoin.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:30:51] [hothorn65@leoin.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:30:53] [hothorn65@leoin.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:30:53] [hothorn65@leoin.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 923499'
+[2026-06-23 09:30:53] [hothorn65@leoin.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 923499
+[2026-06-23 09:30:53] [hothorn65@leoin.eu.cc] Canva | ENTER_OTP | OTP: 923499
+[2026-06-23 09:30:54] [hothorn65@leoin.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:30:56] [hothorn65@leoin.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:30:56] [hothorn65@leoin.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:31:00] [hothorn65@leoin.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:31:00] [hothorn65@leoin.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:31:00] [hothorn65@leoin.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:31:06] [hothorn65@leoin.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:31:13] [hothorn65@leoin.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:31:25] [hothorn65@leoin.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:31:25] [hothorn65@leoin.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:31:48] [hothorn65@leoin.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:31:54] [hothorn65@leoin.eu.cc] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:31:55] [hothorn65@leoin.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:32:02] [hothorn65@leoin.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:32:12] [hothorn65@leoin.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:32:20] [hothorn65@leoin.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: hothorn65@leoin.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:32:20] [hothorn65@leoin.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:32:21] [hothorn65@leoin.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:32:21] [hothorn65@leoin.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:32:21] [hothorn65@leoin.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_hothorn65.json
+[2026-06-23 09:32:34] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:32:35] [mildriver19@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:32:35] [mildriver19@nobisanimi.biz.id] Main | START_REGISTRATION_RUN_21
+[2026-06-23 09:32:35] [mildriver19@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_mildriver19 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:32:38] [mildriver19@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:32:46] [mildriver19@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:32:47] [mildriver19@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:32:47] [mildriver19@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:32:49] [mildriver19@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:32:51] [mildriver19@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 09:32:56] [mildriver19@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_a5_
+[2026-06-23 09:32:57] [mildriver19@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:33:01] [mildriver19@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:33:01] [mildriver19@nobisanimi.biz.id] Canva | FILL_NAME | Name: Eka Lubis
+[2026-06-23 09:33:03] [mildriver19@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:33:08] [mildriver19@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:33:10] [mildriver19@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:33:10] [mildriver19@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 566973'
+[2026-06-23 09:33:10] [mildriver19@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 566973
+[2026-06-23 09:33:10] [mildriver19@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 566973
+[2026-06-23 09:33:11] [mildriver19@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:33:13] [mildriver19@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:33:13] [mildriver19@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:33:18] [mildriver19@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:33:18] [mildriver19@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:33:18] [mildriver19@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 09:33:25] [mildriver19@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:33:32] [mildriver19@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:33:58] [mildriver19@nobisanimi.biz.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 09:34:00] [mildriver19@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:34:24] [mildriver19@nobisanimi.biz.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 09:34:29] [mildriver19@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:34:35] [mildriver19@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:34:35] [mildriver19@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:34:45] [mildriver19@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 9s)
+[2026-06-23 09:35:02] [mildriver19@nobisanimi.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: mildriver19@nobisanimi.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:35:02] [mildriver19@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:35:03] [mildriver19@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:35:03] [mildriver19@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:35:03] [mildriver19@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_mildriver19.json
+[2026-06-23 09:35:16] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:35:18] [spiffyrose58@sman1ponorogo.web.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:35:18] [spiffyrose58@sman1ponorogo.web.id] Main | START_REGISTRATION_RUN_22
+[2026-06-23 09:35:18] [spiffyrose58@sman1ponorogo.web.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_spiffyrose58 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:35:19] [spiffyrose58@sman1ponorogo.web.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:35:29] [spiffyrose58@sman1ponorogo.web.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:35:29] [spiffyrose58@sman1ponorogo.web.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:35:30] [spiffyrose58@sman1ponorogo.web.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:35:31] [spiffyrose58@sman1ponorogo.web.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:35:33] [spiffyrose58@sman1ponorogo.web.id] Canva | FILL_EMAIL
+[2026-06-23 09:35:38] [spiffyrose58@sman1ponorogo.web.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 09:35:40] [spiffyrose58@sman1ponorogo.web.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:35:44] [spiffyrose58@sman1ponorogo.web.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:35:44] [spiffyrose58@sman1ponorogo.web.id] Canva | FILL_NAME | Name: Indah Kurniawan
+[2026-06-23 09:35:46] [spiffyrose58@sman1ponorogo.web.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:35:51] [spiffyrose58@sman1ponorogo.web.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:35:52] [spiffyrose58@sman1ponorogo.web.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:35:52] [spiffyrose58@sman1ponorogo.web.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 908488'
+[2026-06-23 09:35:52] [spiffyrose58@sman1ponorogo.web.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 908488
+[2026-06-23 09:35:52] [spiffyrose58@sman1ponorogo.web.id] Canva | ENTER_OTP | OTP: 908488
+[2026-06-23 09:35:53] [spiffyrose58@sman1ponorogo.web.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:35:56] [spiffyrose58@sman1ponorogo.web.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:35:56] [spiffyrose58@sman1ponorogo.web.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:36:00] [spiffyrose58@sman1ponorogo.web.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:36:00] [spiffyrose58@sman1ponorogo.web.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:36:00] [spiffyrose58@sman1ponorogo.web.id] Leonardo | START_LOGIN
+[2026-06-23 09:36:05] [spiffyrose58@sman1ponorogo.web.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:36:13] [spiffyrose58@sman1ponorogo.web.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:36:24] [spiffyrose58@sman1ponorogo.web.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:36:24] [spiffyrose58@sman1ponorogo.web.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:36:52] [spiffyrose58@sman1ponorogo.web.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:37:00] [spiffyrose58@sman1ponorogo.web.id] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:37:05] [spiffyrose58@sman1ponorogo.web.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:37:11] [spiffyrose58@sman1ponorogo.web.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:37:22] [spiffyrose58@sman1ponorogo.web.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:37:30] [spiffyrose58@sman1ponorogo.web.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: spiffyrose58@sman1ponorogo.web.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:37:30] [spiffyrose58@sman1ponorogo.web.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:37:31] [spiffyrose58@sman1ponorogo.web.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:37:31] [spiffyrose58@sman1ponorogo.web.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:37:31] [spiffyrose58@sman1ponorogo.web.id] Result | SESSION_SAVED_TO_D: D:/cookies_spiffyrose58.json
+[2026-06-23 09:37:44] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:37:45] [brashgod11@dfuvk.my.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:37:45] [brashgod11@dfuvk.my.id] Main | START_REGISTRATION_RUN_23
+[2026-06-23 09:37:46] [brashgod11@dfuvk.my.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_brashgod11 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:37:47] [brashgod11@dfuvk.my.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:37:57] [brashgod11@dfuvk.my.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:37:58] [brashgod11@dfuvk.my.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:37:58] [brashgod11@dfuvk.my.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:38:00] [brashgod11@dfuvk.my.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:38:02] [brashgod11@dfuvk.my.id] Canva | FILL_EMAIL
+[2026-06-23 09:38:07] [brashgod11@dfuvk.my.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 09:38:08] [brashgod11@dfuvk.my.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:38:12] [brashgod11@dfuvk.my.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:38:12] [brashgod11@dfuvk.my.id] Canva | FILL_NAME | Name: Eka Utami
+[2026-06-23 09:38:14] [brashgod11@dfuvk.my.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:38:19] [brashgod11@dfuvk.my.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:38:21] [brashgod11@dfuvk.my.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:38:21] [brashgod11@dfuvk.my.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 804862'
+[2026-06-23 09:38:21] [brashgod11@dfuvk.my.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 804862
+[2026-06-23 09:38:21] [brashgod11@dfuvk.my.id] Canva | ENTER_OTP | OTP: 804862
+[2026-06-23 09:38:22] [brashgod11@dfuvk.my.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:38:24] [brashgod11@dfuvk.my.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:38:24] [brashgod11@dfuvk.my.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:38:28] [brashgod11@dfuvk.my.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:38:28] [brashgod11@dfuvk.my.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:38:28] [brashgod11@dfuvk.my.id] Leonardo | START_LOGIN
+[2026-06-23 09:38:33] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:38:40] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:38:47] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:38:54] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:39:02] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:39:09] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:39:15] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:39:23] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:39:30] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:39:37] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:39:44] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:39:53] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:40:00] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:40:08] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:40:15] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:40:23] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:40:30] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:40:37] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:40:44] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:40:51] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:40:58] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:41:06] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:41:13] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:41:21] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:41:28] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:41:35] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:41:42] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:41:50] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:41:57] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:42:05] [brashgod11@dfuvk.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:42:11] [brashgod11@dfuvk.my.id] Leonardo | LOGIN_TIMEOUT_FAILED
+[2026-06-23 09:42:25] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:42:26] [happyluz69@blumail.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:42:27] [happyluz69@blumail.biz.id] Main | START_REGISTRATION_RUN_24
+[2026-06-23 09:42:27] [happyluz69@blumail.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_happyluz69 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:42:28] [happyluz69@blumail.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:42:37] [happyluz69@blumail.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:42:38] [happyluz69@blumail.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:42:38] [happyluz69@blumail.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:42:43] [happyluz69@blumail.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:42:45] [happyluz69@blumail.biz.id] Canva | FILL_EMAIL
+[2026-06-23 09:42:50] [happyluz69@blumail.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1u_
+[2026-06-23 09:42:56] [happyluz69@blumail.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:43:00] [happyluz69@blumail.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:43:00] [happyluz69@blumail.biz.id] Canva | FILL_NAME | Name: Rian Wulandari
+[2026-06-23 09:43:03] [happyluz69@blumail.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:43:08] [happyluz69@blumail.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:43:16] [happyluz69@blumail.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:43:16] [happyluz69@blumail.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 117259'
+[2026-06-23 09:43:16] [happyluz69@blumail.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 117259
+[2026-06-23 09:43:16] [happyluz69@blumail.biz.id] Canva | ENTER_OTP | OTP: 117259
+[2026-06-23 09:43:17] [happyluz69@blumail.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:43:22] [happyluz69@blumail.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:43:22] [happyluz69@blumail.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:43:27] [happyluz69@blumail.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:43:28] [happyluz69@blumail.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:43:28] [happyluz69@blumail.biz.id] Leonardo | START_LOGIN
+[2026-06-23 09:43:35] [happyluz69@blumail.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:43:50] [happyluz69@blumail.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:43:59] [happyluz69@blumail.biz.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 09:44:02] [happyluz69@blumail.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:44:11] [happyluz69@blumail.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:44:16] [happyluz69@blumail.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:44:38] [happyluz69@blumail.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 21s)
+[2026-06-23 09:46:01] [happyluz69@blumail.biz.id] Extension | CONNECT_FAIL | Status: Reading credentials & sending to the server...
+[2026-06-23 09:46:01] [happyluz69@blumail.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:46:05] [happyluz69@blumail.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:46:05] [happyluz69@blumail.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:46:05] [happyluz69@blumail.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_happyluz69.json
+[2026-06-23 09:46:20] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:46:24] [zealousexit84@sapiderman.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:46:24] [zealousexit84@sapiderman.eu.cc] Main | START_REGISTRATION_RUN_25
+[2026-06-23 09:46:24] [zealousexit84@sapiderman.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_zealousexit84 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:46:26] [zealousexit84@sapiderman.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:46:40] [zealousexit84@sapiderman.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:46:41] [zealousexit84@sapiderman.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:46:42] [zealousexit84@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:46:46] [zealousexit84@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:46:48] [zealousexit84@sapiderman.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:46:53] [zealousexit84@sapiderman.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 09:46:59] [zealousexit84@sapiderman.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:47:03] [zealousexit84@sapiderman.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:47:03] [zealousexit84@sapiderman.eu.cc] Canva | FILL_NAME | Name: Agus Siregar
+[2026-06-23 09:47:05] [zealousexit84@sapiderman.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:47:10] [zealousexit84@sapiderman.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:47:21] [zealousexit84@sapiderman.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:47:21] [zealousexit84@sapiderman.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 812182'
+[2026-06-23 09:47:21] [zealousexit84@sapiderman.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 812182
+[2026-06-23 09:47:21] [zealousexit84@sapiderman.eu.cc] Canva | ENTER_OTP | OTP: 812182
+[2026-06-23 09:47:23] [zealousexit84@sapiderman.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:47:28] [zealousexit84@sapiderman.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:47:28] [zealousexit84@sapiderman.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:47:33] [zealousexit84@sapiderman.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:47:33] [zealousexit84@sapiderman.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:47:33] [zealousexit84@sapiderman.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:47:41] [zealousexit84@sapiderman.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:47:52] [zealousexit84@sapiderman.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:48:09] [zealousexit84@sapiderman.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:48:09] [zealousexit84@sapiderman.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:48:50] [zealousexit84@sapiderman.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 40s)
+[2026-06-23 09:49:58] [zealousexit84@sapiderman.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: zealousexit84@sapiderman.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:49:58] [zealousexit84@sapiderman.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:50:00] [zealousexit84@sapiderman.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:50:00] [zealousexit84@sapiderman.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:50:00] [zealousexit84@sapiderman.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_zealousexit84.json
+[2026-06-23 09:50:19] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:50:20] [lushbush74@blumail.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:50:20] [lushbush74@blumail.biz.id] Main | START_REGISTRATION_RUN_26
+[2026-06-23 09:50:20] [lushbush74@blumail.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_lushbush74 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:50:23] [lushbush74@blumail.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:50:38] [lushbush74@blumail.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:50:39] [lushbush74@blumail.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:50:40] [lushbush74@blumail.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:50:42] [lushbush74@blumail.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:50:44] [lushbush74@blumail.biz.id] Canva | FILL_EMAIL
+[2026-06-23 09:50:49] [lushbush74@blumail.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1v_
+[2026-06-23 09:50:51] [lushbush74@blumail.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:50:55] [lushbush74@blumail.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:50:55] [lushbush74@blumail.biz.id] Canva | FILL_NAME | Name: Joko Sari
+[2026-06-23 09:50:57] [lushbush74@blumail.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:51:02] [lushbush74@blumail.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:51:04] [lushbush74@blumail.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:51:04] [lushbush74@blumail.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 410339'
+[2026-06-23 09:51:04] [lushbush74@blumail.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 410339
+[2026-06-23 09:51:04] [lushbush74@blumail.biz.id] Canva | ENTER_OTP | OTP: 410339
+[2026-06-23 09:51:05] [lushbush74@blumail.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:51:07] [lushbush74@blumail.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:51:07] [lushbush74@blumail.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:51:11] [lushbush74@blumail.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:51:11] [lushbush74@blumail.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:51:11] [lushbush74@blumail.biz.id] Leonardo | START_LOGIN
+[2026-06-23 09:51:18] [lushbush74@blumail.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:51:25] [lushbush74@blumail.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:51:41] [lushbush74@blumail.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:51:41] [lushbush74@blumail.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:51:48] [lushbush74@blumail.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:52:14] [lushbush74@blumail.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:52:24] [lushbush74@blumail.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:52:34] [lushbush74@blumail.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:52:42] [lushbush74@blumail.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: lushbush74@blumail.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:52:42] [lushbush74@blumail.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:52:43] [lushbush74@blumail.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:52:43] [lushbush74@blumail.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:52:43] [lushbush74@blumail.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_lushbush74.json
+[2026-06-23 09:52:56] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:52:57] [smugkip71@sapiderman.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:52:57] [smugkip71@sapiderman.eu.cc] Main | START_REGISTRATION_RUN_27
+[2026-06-23 09:52:57] [smugkip71@sapiderman.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_smugkip71 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:53:00] [smugkip71@sapiderman.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:53:11] [smugkip71@sapiderman.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:53:11] [smugkip71@sapiderman.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:53:11] [smugkip71@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:53:13] [smugkip71@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:53:15] [smugkip71@sapiderman.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:53:20] [smugkip71@sapiderman.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_g7_
+[2026-06-23 09:53:22] [smugkip71@sapiderman.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:53:26] [smugkip71@sapiderman.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:53:26] [smugkip71@sapiderman.eu.cc] Canva | FILL_NAME | Name: Rini Utami
+[2026-06-23 09:53:28] [smugkip71@sapiderman.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:53:33] [smugkip71@sapiderman.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:53:35] [smugkip71@sapiderman.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:53:35] [smugkip71@sapiderman.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 580262'
+[2026-06-23 09:53:35] [smugkip71@sapiderman.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 580262
+[2026-06-23 09:53:35] [smugkip71@sapiderman.eu.cc] Canva | ENTER_OTP | OTP: 580262
+[2026-06-23 09:53:35] [smugkip71@sapiderman.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:53:39] [smugkip71@sapiderman.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:53:39] [smugkip71@sapiderman.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:53:39] [smugkip71@sapiderman.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:53:39] [smugkip71@sapiderman.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:53:47] [smugkip71@sapiderman.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:53:54] [smugkip71@sapiderman.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:54:07] [smugkip71@sapiderman.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:54:07] [smugkip71@sapiderman.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:54:30] [smugkip71@sapiderman.eu.cc] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 09:54:33] [smugkip71@sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:54:40] [smugkip71@sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:54:47] [smugkip71@sapiderman.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:54:56] [smugkip71@sapiderman.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:55:04] [smugkip71@sapiderman.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: smugkip71@sapiderman.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:55:04] [smugkip71@sapiderman.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:55:05] [smugkip71@sapiderman.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:55:05] [smugkip71@sapiderman.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:55:05] [smugkip71@sapiderman.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_smugkip71.json
+[2026-06-23 09:55:18] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:55:19] [soundava03@leoart.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:55:19] [soundava03@leoart.eu.cc] Main | START_REGISTRATION_RUN_28
+[2026-06-23 09:55:19] [soundava03@leoart.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_soundava03 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:55:26] [soundava03@leoart.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:55:37] [soundava03@leoart.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:55:38] [soundava03@leoart.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:55:38] [soundava03@leoart.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:55:40] [soundava03@leoart.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:55:42] [soundava03@leoart.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:55:47] [soundava03@leoart.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_cm_
+[2026-06-23 09:55:48] [soundava03@leoart.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:55:52] [soundava03@leoart.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:55:52] [soundava03@leoart.eu.cc] Canva | FILL_NAME | Name: Andi Saputra
+[2026-06-23 09:55:55] [soundava03@leoart.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:56:00] [soundava03@leoart.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:56:01] [soundava03@leoart.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:56:01] [soundava03@leoart.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 546875'
+[2026-06-23 09:56:01] [soundava03@leoart.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 546875
+[2026-06-23 09:56:01] [soundava03@leoart.eu.cc] Canva | ENTER_OTP | OTP: 546875
+[2026-06-23 09:56:02] [soundava03@leoart.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:56:05] [soundava03@leoart.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 09:56:05] [soundava03@leoart.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:56:08] [soundava03@leoart.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:56:08] [soundava03@leoart.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:56:08] [soundava03@leoart.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:56:13] [soundava03@leoart.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:56:19] [soundava03@leoart.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:56:30] [soundava03@leoart.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:56:30] [soundava03@leoart.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:56:47] [soundava03@leoart.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:56:54] [soundava03@leoart.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 09:57:01] [soundava03@leoart.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 09:57:13] [soundava03@leoart.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 09:57:21] [soundava03@leoart.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: soundava03@leoart.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 09:57:21] [soundava03@leoart.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 09:57:22] [soundava03@leoart.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 09:57:22] [soundava03@leoart.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 09:57:22] [soundava03@leoart.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_soundava03.json
+[2026-06-23 09:57:35] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 09:57:36] [minigia97@rawon.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 09:57:36] [minigia97@rawon.eu.cc] Main | START_REGISTRATION_RUN_29
+[2026-06-23 09:57:36] [minigia97@rawon.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_minigia97 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 09:57:38] [minigia97@rawon.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 09:57:46] [minigia97@rawon.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 09:57:47] [minigia97@rawon.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 09:57:47] [minigia97@rawon.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 09:57:49] [minigia97@rawon.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 09:57:51] [minigia97@rawon.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 09:57:56] [minigia97@rawon.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_as_
+[2026-06-23 09:57:58] [minigia97@rawon.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 09:58:02] [minigia97@rawon.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 09:58:02] [minigia97@rawon.eu.cc] Canva | FILL_NAME | Name: Hadi Wulandari
+[2026-06-23 09:58:05] [minigia97@rawon.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 09:58:10] [minigia97@rawon.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 09:58:11] [minigia97@rawon.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 09:58:11] [minigia97@rawon.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 639384'
+[2026-06-23 09:58:11] [minigia97@rawon.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 639384
+[2026-06-23 09:58:11] [minigia97@rawon.eu.cc] Canva | ENTER_OTP | OTP: 639384
+[2026-06-23 09:58:12] [minigia97@rawon.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 09:58:16] [minigia97@rawon.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 09:58:16] [minigia97@rawon.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 09:58:16] [minigia97@rawon.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 09:58:16] [minigia97@rawon.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 09:58:21] [minigia97@rawon.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:58:27] [minigia97@rawon.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:58:51] [minigia97@rawon.eu.cc] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 09:58:54] [minigia97@rawon.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 09:59:00] [minigia97@rawon.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 09:59:21] [minigia97@rawon.eu.cc] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 09:59:25] [minigia97@rawon.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 09:59:25] [minigia97@rawon.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 09:59:42] [minigia97@rawon.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 09:59:54] [minigia97@rawon.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:00:04] [minigia97@rawon.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:00:12] [minigia97@rawon.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: minigia97@rawon.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:00:12] [minigia97@rawon.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:00:13] [minigia97@rawon.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:00:13] [minigia97@rawon.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:00:13] [minigia97@rawon.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_minigia97.json
+[2026-06-23 10:00:26] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:00:27] [spicyhost59@vykue.my.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:00:27] [spicyhost59@vykue.my.id] Main | START_REGISTRATION_RUN_30
+[2026-06-23 10:00:27] [spicyhost59@vykue.my.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_spicyhost59 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:00:29] [spicyhost59@vykue.my.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:00:37] [spicyhost59@vykue.my.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:00:38] [spicyhost59@vykue.my.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:00:38] [spicyhost59@vykue.my.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:00:40] [spicyhost59@vykue.my.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:00:42] [spicyhost59@vykue.my.id] Canva | FILL_EMAIL
+[2026-06-23 10:00:47] [spicyhost59@vykue.my.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_cl_
+[2026-06-23 10:00:49] [spicyhost59@vykue.my.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:00:53] [spicyhost59@vykue.my.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:00:53] [spicyhost59@vykue.my.id] Canva | FILL_NAME | Name: Mega Setiawan
+[2026-06-23 10:00:55] [spicyhost59@vykue.my.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:01:00] [spicyhost59@vykue.my.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:01:02] [spicyhost59@vykue.my.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:01:02] [spicyhost59@vykue.my.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 886049'
+[2026-06-23 10:01:02] [spicyhost59@vykue.my.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 886049
+[2026-06-23 10:01:02] [spicyhost59@vykue.my.id] Canva | ENTER_OTP | OTP: 886049
+[2026-06-23 10:01:03] [spicyhost59@vykue.my.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:01:05] [spicyhost59@vykue.my.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:01:05] [spicyhost59@vykue.my.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:01:08] [spicyhost59@vykue.my.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:01:08] [spicyhost59@vykue.my.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:01:08] [spicyhost59@vykue.my.id] Leonardo | START_LOGIN
+[2026-06-23 10:01:13] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:01:20] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:01:26] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:01:33] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:01:39] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:01:46] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:01:52] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:01:59] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:02:05] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:02:12] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:02:18] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:02:24] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:02:31] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:02:37] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:02:44] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:02:50] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:02:57] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:03:03] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:03:04] [spicyhost59@vykue.my.id] Leonardo | CANVA_CLICK_ERR | ElementHandle.click: Element is not attached to the DOM | Call log: |   - attempting click action |     - waiting for element to be visible, enabled and stable | 
+[2026-06-23 10:03:07] [spicyhost59@vykue.my.id] Leonardo | CANVA_CLICK_ERR | Page.query_selector: Execution context was destroyed, most likely because of a navigation
+[2026-06-23 10:03:07] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:03:14] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:03:21] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:03:28] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:03:34] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:03:40] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:03:47] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:03:54] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:04:01] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:04:07] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:04:14] [spicyhost59@vykue.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:04:22] [spicyhost59@vykue.my.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:04:22] [spicyhost59@vykue.my.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:04:49] [spicyhost59@vykue.my.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 26s)
+[2026-06-23 10:04:52] [spicyhost59@vykue.my.id] Session | NO_TOKEN
+[2026-06-23 10:05:06] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:05:08] [primezoo99@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:05:08] [primezoo99@nobisanimi.biz.id] Main | START_REGISTRATION_RUN_31
+[2026-06-23 10:05:08] [primezoo99@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_primezoo99 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:05:10] [primezoo99@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:05:18] [primezoo99@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:05:18] [primezoo99@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:05:19] [primezoo99@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:05:21] [primezoo99@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:05:23] [primezoo99@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:05:28] [primezoo99@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_4b_
+[2026-06-23 10:05:30] [primezoo99@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:05:34] [primezoo99@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:05:34] [primezoo99@nobisanimi.biz.id] Canva | FILL_NAME | Name: Dewi Ginting
+[2026-06-23 10:05:37] [primezoo99@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:05:42] [primezoo99@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:05:43] [primezoo99@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:05:43] [primezoo99@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 944995'
+[2026-06-23 10:05:43] [primezoo99@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 944995
+[2026-06-23 10:05:43] [primezoo99@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 944995
+[2026-06-23 10:05:44] [primezoo99@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:05:46] [primezoo99@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:05:46] [primezoo99@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:05:52] [primezoo99@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:05:52] [primezoo99@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:05:52] [primezoo99@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 10:05:56] [primezoo99@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:06:02] [primezoo99@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:06:10] [primezoo99@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:06:10] [primezoo99@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:06:24] [primezoo99@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:06:32] [primezoo99@nobisanimi.biz.id] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 10:06:34] [primezoo99@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:06:40] [primezoo99@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:06:51] [primezoo99@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:06:59] [primezoo99@nobisanimi.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: primezoo99@nobisanimi.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:06:59] [primezoo99@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:07:00] [primezoo99@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:07:00] [primezoo99@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:07:00] [primezoo99@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_primezoo99.json
+[2026-06-23 10:07:13] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:07:14] [comfyjeep91@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:07:14] [comfyjeep91@nobisanimi.biz.id] Main | START_REGISTRATION_RUN_32
+[2026-06-23 10:07:14] [comfyjeep91@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_comfyjeep91 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:07:16] [comfyjeep91@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:07:24] [comfyjeep91@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:07:24] [comfyjeep91@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:07:25] [comfyjeep91@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:07:26] [comfyjeep91@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:07:28] [comfyjeep91@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:07:34] [comfyjeep91@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_2h_
+[2026-06-23 10:07:36] [comfyjeep91@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:07:40] [comfyjeep91@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:07:40] [comfyjeep91@nobisanimi.biz.id] Canva | FILL_NAME | Name: Rini Wijaya
+[2026-06-23 10:07:42] [comfyjeep91@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:07:47] [comfyjeep91@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:07:49] [comfyjeep91@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:07:49] [comfyjeep91@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 643435'
+[2026-06-23 10:07:49] [comfyjeep91@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 643435
+[2026-06-23 10:07:49] [comfyjeep91@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 643435
+[2026-06-23 10:07:50] [comfyjeep91@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:07:52] [comfyjeep91@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:07:52] [comfyjeep91@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:07:56] [comfyjeep91@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:07:56] [comfyjeep91@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:07:56] [comfyjeep91@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 10:08:00] [comfyjeep91@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:08:06] [comfyjeep91@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:08:14] [comfyjeep91@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:08:14] [comfyjeep91@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:08:30] [comfyjeep91@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:08:40] [comfyjeep91@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:08:46] [comfyjeep91@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:08:55] [comfyjeep91@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:09:03] [comfyjeep91@nobisanimi.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: comfyjeep91@nobisanimi.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:09:03] [comfyjeep91@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:09:04] [comfyjeep91@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:09:04] [comfyjeep91@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:09:04] [comfyjeep91@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_comfyjeep91.json
+[2026-06-23 10:09:17] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:09:18] [elitelamp89@leostar.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:09:18] [elitelamp89@leostar.eu.cc] Main | START_REGISTRATION_RUN_33
+[2026-06-23 10:09:18] [elitelamp89@leostar.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_elitelamp89 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:09:20] [elitelamp89@leostar.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:09:29] [elitelamp89@leostar.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:09:29] [elitelamp89@leostar.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:09:30] [elitelamp89@leostar.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:09:31] [elitelamp89@leostar.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:09:33] [elitelamp89@leostar.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:09:39] [elitelamp89@leostar.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_6n_
+[2026-06-23 10:09:41] [elitelamp89@leostar.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:09:45] [elitelamp89@leostar.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:09:45] [elitelamp89@leostar.eu.cc] Canva | FILL_NAME | Name: Dewi Wulandari
+[2026-06-23 10:09:47] [elitelamp89@leostar.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:09:52] [elitelamp89@leostar.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:09:53] [elitelamp89@leostar.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:09:53] [elitelamp89@leostar.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 415331'
+[2026-06-23 10:09:53] [elitelamp89@leostar.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 415331
+[2026-06-23 10:09:53] [elitelamp89@leostar.eu.cc] Canva | ENTER_OTP | OTP: 415331
+[2026-06-23 10:09:55] [elitelamp89@leostar.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:09:57] [elitelamp89@leostar.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:09:57] [elitelamp89@leostar.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:10:00] [elitelamp89@leostar.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:10:00] [elitelamp89@leostar.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:10:00] [elitelamp89@leostar.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 10:10:04] [elitelamp89@leostar.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:10:11] [elitelamp89@leostar.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:10:18] [elitelamp89@leostar.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:10:18] [elitelamp89@leostar.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:10:31] [elitelamp89@leostar.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:10:47] [elitelamp89@leostar.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:10:52] [elitelamp89@leostar.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:11:01] [elitelamp89@leostar.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:11:10] [elitelamp89@leostar.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: elitelamp89@leostar.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:11:10] [elitelamp89@leostar.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:11:10] [elitelamp89@leostar.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:11:10] [elitelamp89@leostar.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:11:10] [elitelamp89@leostar.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_elitelamp89.json
+[2026-06-23 10:11:23] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:11:25] [nimbledave66@modiminima.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:11:25] [nimbledave66@modiminima.biz.id] Main | START_REGISTRATION_RUN_34
+[2026-06-23 10:11:25] [nimbledave66@modiminima.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_nimbledave66 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:11:26] [nimbledave66@modiminima.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:11:35] [nimbledave66@modiminima.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:11:35] [nimbledave66@modiminima.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:11:35] [nimbledave66@modiminima.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:11:37] [nimbledave66@modiminima.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:11:39] [nimbledave66@modiminima.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:11:44] [nimbledave66@modiminima.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_4u_
+[2026-06-23 10:11:47] [nimbledave66@modiminima.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:11:51] [nimbledave66@modiminima.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:11:51] [nimbledave66@modiminima.biz.id] Canva | FILL_NAME | Name: Adi Budiman
+[2026-06-23 10:11:53] [nimbledave66@modiminima.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:11:58] [nimbledave66@modiminima.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:11:59] [nimbledave66@modiminima.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:11:59] [nimbledave66@modiminima.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 319895'
+[2026-06-23 10:11:59] [nimbledave66@modiminima.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 319895
+[2026-06-23 10:11:59] [nimbledave66@modiminima.biz.id] Canva | ENTER_OTP | OTP: 319895
+[2026-06-23 10:12:00] [nimbledave66@modiminima.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:12:03] [nimbledave66@modiminima.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:12:03] [nimbledave66@modiminima.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:12:06] [nimbledave66@modiminima.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:12:06] [nimbledave66@modiminima.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:12:06] [nimbledave66@modiminima.biz.id] Leonardo | START_LOGIN
+[2026-06-23 10:12:11] [nimbledave66@modiminima.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:12:17] [nimbledave66@modiminima.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:12:26] [nimbledave66@modiminima.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:12:26] [nimbledave66@modiminima.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:12:46] [nimbledave66@modiminima.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:12:57] [nimbledave66@modiminima.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:13:03] [nimbledave66@modiminima.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:13:13] [nimbledave66@modiminima.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:13:22] [nimbledave66@modiminima.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: nimbledave66@modiminima.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:13:22] [nimbledave66@modiminima.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:13:24] [nimbledave66@modiminima.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:13:24] [nimbledave66@modiminima.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:13:24] [nimbledave66@modiminima.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_nimbledave66.json
+[2026-06-23 10:13:37] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:13:39] [briskdawn85@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:13:39] [briskdawn85@nobisanimi.biz.id] Main | START_REGISTRATION_RUN_35
+[2026-06-23 10:13:39] [briskdawn85@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_briskdawn85 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:13:40] [briskdawn85@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:13:50] [briskdawn85@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:13:50] [briskdawn85@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:13:51] [briskdawn85@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:13:52] [briskdawn85@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:13:54] [briskdawn85@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:14:00] [briskdawn85@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_29_
+[2026-06-23 10:14:01] [briskdawn85@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:14:05] [briskdawn85@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:14:05] [briskdawn85@nobisanimi.biz.id] Canva | FILL_NAME | Name: Mega Ginting
+[2026-06-23 10:14:07] [briskdawn85@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:14:13] [briskdawn85@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:14:14] [briskdawn85@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:14:14] [briskdawn85@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 590905'
+[2026-06-23 10:14:14] [briskdawn85@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 590905
+[2026-06-23 10:14:14] [briskdawn85@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 590905
+[2026-06-23 10:14:15] [briskdawn85@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:14:17] [briskdawn85@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:14:17] [briskdawn85@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:14:21] [briskdawn85@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:14:21] [briskdawn85@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:14:21] [briskdawn85@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 10:14:27] [briskdawn85@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:14:35] [briskdawn85@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:14:42] [briskdawn85@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:14:42] [briskdawn85@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:14:57] [briskdawn85@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 14s)
+[2026-06-23 10:15:10] [briskdawn85@nobisanimi.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: briskdawn85@nobisanimi.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:15:10] [briskdawn85@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:15:12] [briskdawn85@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:15:12] [briskdawn85@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:15:12] [briskdawn85@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_briskdawn85.json
+[2026-06-23 10:15:25] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:15:26] [peppybog16@blumail.my.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:15:26] [peppybog16@blumail.my.id] Main | START_REGISTRATION_RUN_36
+[2026-06-23 10:15:26] [peppybog16@blumail.my.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_peppybog16 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:15:28] [peppybog16@blumail.my.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:15:35] [peppybog16@blumail.my.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:15:36] [peppybog16@blumail.my.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:15:36] [peppybog16@blumail.my.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:15:38] [peppybog16@blumail.my.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:15:40] [peppybog16@blumail.my.id] Canva | FILL_EMAIL
+[2026-06-23 10:15:45] [peppybog16@blumail.my.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_ch_
+[2026-06-23 10:15:47] [peppybog16@blumail.my.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:15:51] [peppybog16@blumail.my.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:15:51] [peppybog16@blumail.my.id] Canva | FILL_NAME | Name: Dewi Kurniawan
+[2026-06-23 10:15:54] [peppybog16@blumail.my.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:15:59] [peppybog16@blumail.my.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:16:00] [peppybog16@blumail.my.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:16:00] [peppybog16@blumail.my.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 267736'
+[2026-06-23 10:16:00] [peppybog16@blumail.my.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 267736
+[2026-06-23 10:16:00] [peppybog16@blumail.my.id] Canva | ENTER_OTP | OTP: 267736
+[2026-06-23 10:16:01] [peppybog16@blumail.my.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:16:03] [peppybog16@blumail.my.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:16:03] [peppybog16@blumail.my.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:16:07] [peppybog16@blumail.my.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:16:07] [peppybog16@blumail.my.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:16:07] [peppybog16@blumail.my.id] Leonardo | START_LOGIN
+[2026-06-23 10:16:11] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:16:17] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:16:24] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:16:30] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:16:36] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:16:43] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:16:49] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:16:56] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:17:02] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:17:09] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:17:15] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:17:21] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:17:28] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:17:34] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:17:40] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:17:47] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:17:53] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:18:00] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:18:06] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:18:12] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:18:18] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:18:25] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:18:31] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:18:38] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:18:44] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:18:51] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:18:57] [peppybog16@blumail.my.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:19:05] [peppybog16@blumail.my.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:19:05] [peppybog16@blumail.my.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:19:39] [peppybog16@blumail.my.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 33s)
+[2026-06-23 10:19:41] [peppybog16@blumail.my.id] Session | NO_TOKEN
+[2026-06-23 10:19:54] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:19:55] [cosmicdwi23@leoin.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:19:55] [cosmicdwi23@leoin.eu.cc] Main | START_REGISTRATION_RUN_37
+[2026-06-23 10:19:55] [cosmicdwi23@leoin.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_cosmicdwi23 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:19:57] [cosmicdwi23@leoin.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:20:05] [cosmicdwi23@leoin.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:20:06] [cosmicdwi23@leoin.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:20:06] [cosmicdwi23@leoin.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:20:08] [cosmicdwi23@leoin.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:20:10] [cosmicdwi23@leoin.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:20:15] [cosmicdwi23@leoin.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_3i_
+[2026-06-23 10:20:17] [cosmicdwi23@leoin.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:20:21] [cosmicdwi23@leoin.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:20:21] [cosmicdwi23@leoin.eu.cc] Canva | FILL_NAME | Name: Mega Budiman
+[2026-06-23 10:20:24] [cosmicdwi23@leoin.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:20:29] [cosmicdwi23@leoin.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:20:30] [cosmicdwi23@leoin.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:20:30] [cosmicdwi23@leoin.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 206374'
+[2026-06-23 10:20:30] [cosmicdwi23@leoin.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 206374
+[2026-06-23 10:20:30] [cosmicdwi23@leoin.eu.cc] Canva | ENTER_OTP | OTP: 206374
+[2026-06-23 10:20:31] [cosmicdwi23@leoin.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:20:33] [cosmicdwi23@leoin.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:20:33] [cosmicdwi23@leoin.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:20:37] [cosmicdwi23@leoin.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:20:37] [cosmicdwi23@leoin.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:20:37] [cosmicdwi23@leoin.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 10:20:41] [cosmicdwi23@leoin.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:20:48] [cosmicdwi23@leoin.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:20:55] [cosmicdwi23@leoin.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:20:55] [cosmicdwi23@leoin.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:21:17] [cosmicdwi23@leoin.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:21:24] [cosmicdwi23@leoin.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:21:34] [cosmicdwi23@leoin.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:21:45] [cosmicdwi23@leoin.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:21:52] [cosmicdwi23@leoin.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: cosmicdwi23@leoin.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:21:52] [cosmicdwi23@leoin.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:21:53] [cosmicdwi23@leoin.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:21:53] [cosmicdwi23@leoin.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:21:53] [cosmicdwi23@leoin.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_cosmicdwi23.json
+[2026-06-23 10:22:06] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:22:07] [leanfaye47@nobisanimi.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:22:07] [leanfaye47@nobisanimi.biz.id] Main | START_REGISTRATION_RUN_38
+[2026-06-23 10:22:07] [leanfaye47@nobisanimi.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_leanfaye47 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:22:09] [leanfaye47@nobisanimi.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:22:17] [leanfaye47@nobisanimi.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:22:18] [leanfaye47@nobisanimi.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:22:18] [leanfaye47@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:22:20] [leanfaye47@nobisanimi.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:22:22] [leanfaye47@nobisanimi.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:22:27] [leanfaye47@nobisanimi.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_3n_
+[2026-06-23 10:22:30] [leanfaye47@nobisanimi.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:22:34] [leanfaye47@nobisanimi.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:22:34] [leanfaye47@nobisanimi.biz.id] Canva | FILL_NAME | Name: Mega Pratama
+[2026-06-23 10:22:37] [leanfaye47@nobisanimi.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:22:42] [leanfaye47@nobisanimi.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:22:49] [leanfaye47@nobisanimi.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:22:49] [leanfaye47@nobisanimi.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 852148'
+[2026-06-23 10:22:50] [leanfaye47@nobisanimi.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 852148
+[2026-06-23 10:22:50] [leanfaye47@nobisanimi.biz.id] Canva | ENTER_OTP | OTP: 852148
+[2026-06-23 10:22:51] [leanfaye47@nobisanimi.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:22:53] [leanfaye47@nobisanimi.biz.id] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:22:53] [leanfaye47@nobisanimi.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:22:57] [leanfaye47@nobisanimi.biz.id] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:22:57] [leanfaye47@nobisanimi.biz.id] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:22:57] [leanfaye47@nobisanimi.biz.id] Leonardo | START_LOGIN
+[2026-06-23 10:23:01] [leanfaye47@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:23:07] [leanfaye47@nobisanimi.biz.id] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:23:16] [leanfaye47@nobisanimi.biz.id] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:23:16] [leanfaye47@nobisanimi.biz.id] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:23:43] [leanfaye47@nobisanimi.biz.id] Leonardo | CLICKING_AGREE_CHECKBOX
+[2026-06-23 10:23:48] [leanfaye47@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:23:54] [leanfaye47@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:24:01] [leanfaye47@nobisanimi.biz.id] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:24:12] [leanfaye47@nobisanimi.biz.id] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 9s)
+[2026-06-23 10:24:19] [leanfaye47@nobisanimi.biz.id] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: leanfaye47@nobisanimi.biz.id | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:24:19] [leanfaye47@nobisanimi.biz.id] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:24:20] [leanfaye47@nobisanimi.biz.id] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:24:20] [leanfaye47@nobisanimi.biz.id] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:24:20] [leanfaye47@nobisanimi.biz.id] Result | SESSION_SAVED_TO_D: D:/cookies_leanfaye47.json
+[2026-06-23 10:24:33] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:24:34] [solidant11@neat.biz.id] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:24:34] [solidant11@neat.biz.id] Main | START_REGISTRATION_RUN_39
+[2026-06-23 10:24:34] [solidant11@neat.biz.id] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_solidant11 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:24:41] [solidant11@neat.biz.id] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:24:50] [solidant11@neat.biz.id] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:24:51] [solidant11@neat.biz.id] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:24:51] [solidant11@neat.biz.id] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:24:53] [solidant11@neat.biz.id] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:24:55] [solidant11@neat.biz.id] Canva | FILL_EMAIL
+[2026-06-23 10:25:00] [solidant11@neat.biz.id] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_31_
+[2026-06-23 10:25:02] [solidant11@neat.biz.id] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:25:06] [solidant11@neat.biz.id] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:25:06] [solidant11@neat.biz.id] Canva | FILL_NAME | Name: Prasetyo Siregar
+[2026-06-23 10:25:08] [solidant11@neat.biz.id] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:25:13] [solidant11@neat.biz.id] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:25:15] [solidant11@neat.biz.id] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:25:15] [solidant11@neat.biz.id] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 811125'
+[2026-06-23 10:25:15] [solidant11@neat.biz.id] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 811125
+[2026-06-23 10:25:15] [solidant11@neat.biz.id] Canva | ENTER_OTP | OTP: 811125
+[2026-06-23 10:25:16] [solidant11@neat.biz.id] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:26:18] [solidant11@neat.biz.id] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:26:49] [solidant11@neat.biz.id] Canva | REGISTRATION_FAILED | Timeout waiting for successful registration landing page
+[2026-06-23 10:27:02] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:27:04] [rosymouse35@leoplay.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:27:04] [rosymouse35@leoplay.eu.cc] Main | START_REGISTRATION_RUN_40
+[2026-06-23 10:27:04] [rosymouse35@leoplay.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_rosymouse35 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:27:06] [rosymouse35@leoplay.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:27:16] [rosymouse35@leoplay.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:27:17] [rosymouse35@leoplay.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:27:18] [rosymouse35@leoplay.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:27:22] [rosymouse35@leoplay.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:27:24] [rosymouse35@leoplay.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:27:29] [rosymouse35@leoplay.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 10:27:31] [rosymouse35@leoplay.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:27:35] [rosymouse35@leoplay.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:27:35] [rosymouse35@leoplay.eu.cc] Canva | FILL_NAME | Name: Lestari Setiawan
+[2026-06-23 10:27:38] [rosymouse35@leoplay.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:27:43] [rosymouse35@leoplay.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:27:44] [rosymouse35@leoplay.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:27:44] [rosymouse35@leoplay.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 840009'
+[2026-06-23 10:27:44] [rosymouse35@leoplay.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 840009
+[2026-06-23 10:27:44] [rosymouse35@leoplay.eu.cc] Canva | ENTER_OTP | OTP: 840009
+[2026-06-23 10:27:45] [rosymouse35@leoplay.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:27:47] [rosymouse35@leoplay.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:27:47] [rosymouse35@leoplay.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:27:51] [rosymouse35@leoplay.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:27:51] [rosymouse35@leoplay.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:27:51] [rosymouse35@leoplay.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 10:27:55] [rosymouse35@leoplay.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:28:02] [rosymouse35@leoplay.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:28:13] [rosymouse35@leoplay.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:28:13] [rosymouse35@leoplay.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:28:38] [rosymouse35@leoplay.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 24s)
+[2026-06-23 10:28:50] [rosymouse35@leoplay.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: rosymouse35@leoplay.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:28:50] [rosymouse35@leoplay.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:28:53] [rosymouse35@leoplay.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:28:53] [rosymouse35@leoplay.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:28:53] [rosymouse35@leoplay.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_rosymouse35.json
+[2026-06-23 10:29:09] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:29:10] [comfybear55@leosky.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:29:10] [comfybear55@leosky.eu.cc] Main | START_REGISTRATION_RUN_41
+[2026-06-23 10:29:10] [comfybear55@leosky.eu.cc] Playwright | START_BROWSER | Profile: D:/BotLeonardo_profiles\temp_profile_comfybear55 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:29:13] [comfybear55@leosky.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:29:25] [comfybear55@leosky.eu.cc] Canva | COOKIES_ACCEPTED
+[2026-06-23 10:29:25] [comfybear55@leosky.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:29:26] [comfybear55@leosky.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:29:27] [comfybear55@leosky.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:29:29] [comfybear55@leosky.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:29:35] [comfybear55@leosky.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_9p_
+[2026-06-23 10:29:36] [comfybear55@leosky.eu.cc] Canva | CLICKED_EMAIL_CONTINUE
+[2026-06-23 10:29:40] [comfybear55@leosky.eu.cc] Canva | WAIT_NEXT_STEP
+[2026-06-23 10:29:40] [comfybear55@leosky.eu.cc] Canva | FILL_NAME | Name: Lestari Utami
+[2026-06-23 10:29:42] [comfybear55@leosky.eu.cc] Canva | CLICKED_CREATE_ACCOUNT
+[2026-06-23 10:29:47] [comfybear55@leosky.eu.cc] Lisensify | WAIT_FOR_OTP | Timeout: 120s
+[2026-06-23 10:29:49] [comfybear55@leosky.eu.cc] Lisensify | RECEIVED_1_MESSAGES
+[2026-06-23 10:29:49] [comfybear55@leosky.eu.cc] Lisensify | MESSAGE_PREVIEW: From="Canva" <no-reply@canva.com>, Subject='Your Canva code is 215399'
+[2026-06-23 10:29:49] [comfybear55@leosky.eu.cc] Lisensify | OTP_FOUND_IN_SUBJECT | Code: 215399
+[2026-06-23 10:29:49] [comfybear55@leosky.eu.cc] Canva | ENTER_OTP | OTP: 215399
+[2026-06-23 10:29:50] [comfybear55@leosky.eu.cc] Canva | OTP_TYPED_SINGLE_INPUT
+[2026-06-23 10:29:52] [comfybear55@leosky.eu.cc] Canva | CLICKED_OTP_SUBMIT
+[2026-06-23 10:29:52] [comfybear55@leosky.eu.cc] Canva | WAIT_FOR_SUCCESS
+[2026-06-23 10:29:55] [comfybear55@leosky.eu.cc] Canva | REGISTRATION_SUCCESS_DASHBOARD
+[2026-06-23 10:29:55] [comfybear55@leosky.eu.cc] Result | SAVED_TO_FILE | File: email.txt
+[2026-06-23 10:29:55] [comfybear55@leosky.eu.cc] Leonardo | START_LOGIN
+[2026-06-23 10:30:00] [comfybear55@leosky.eu.cc] Leonardo | CLICKING_CANVA_BUTTON
+[2026-06-23 10:30:08] [comfybear55@leosky.eu.cc] Leonardo | CLICKING_CANVA_ALLOW_BUTTON
+[2026-06-23 10:30:15] [comfybear55@leosky.eu.cc] Leonardo | LOGIN_SUCCESS_DASHBOARD
+[2026-06-23 10:30:15] [comfybear55@leosky.eu.cc] Leonardo | STARTING_ONBOARDING_MODAL_HANDLING
+[2026-06-23 10:30:25] [comfybear55@leosky.eu.cc] Leonardo | MODAL_CLICKED: Continue
+[2026-06-23 10:30:46] [comfybear55@leosky.eu.cc] Leonardo | MODAL_CLICKED: Skip
+[2026-06-23 10:30:52] [comfybear55@leosky.eu.cc] Leonardo | MODAL_CLICKED: Let's Go!
+[2026-06-23 10:31:02] [comfybear55@leosky.eu.cc] Leonardo | ONBOARDING_COMPLETED_IDLE_DETECTED (idle 8s)
+[2026-06-23 10:31:13] [comfybear55@leosky.eu.cc] Extension | CONNECT_SUCCESS | CONNECTED ✓ | email: comfybear55@leosky.eu.cc | plan: BASIC | tokens left: 8500 | session until: 2026-08-07 |  | Account linked. You can close this tab.
+[2026-06-23 10:31:13] [comfybear55@leosky.eu.cc] Result | CHECKING_CREDITS_8500
+[2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
+[2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | CREDITS_8500_DETECTED
+[2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_comfybear55.json

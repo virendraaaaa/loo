@@ -1,0 +1,17 @@
+{
+  "email_file": "email.txt",
+  "signup_url": "https://www.canva.com/brand/join?token=H4cKam2KEzH3Z43NJpNGfg&referrer=team-invite",
+  "login_url": "https://app.leonardo.ai/auth/login",
+  "timeout": 10000,
+  "headless": false,
+  "login_method": "google",
+  "password": "qwerty123",
+  "browser_type": "chromium",
+  "slow_mo": 100,
+  "connect_token": "OIYJ3PHqi8lic_b52ARg2Os9",
+  "direct_injection": false,
+  "delete_profile_on_success": false,
+  "profile_dir": "D:/BotLeonardo_profiles",
+  "loop_delay": 10,
+  "max_accounts": 99
+}

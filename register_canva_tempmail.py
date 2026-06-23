@@ -187,7 +187,7 @@ async def type_human(page, selector, text):
         return False
 
 async def save_session_if_credits_ok(page, context, email, password):
-    """Check if the account has 8,500 credits and save the session to D:/"""
+    """Check if the account has 8,500 credits and save the session to browser_profiles/"""
     try:
         log("Result", "CHECKING_CREDITS_8500", email)
         
@@ -241,21 +241,21 @@ async def save_session_if_credits_ok(page, context, email, password):
             
         if has_credits:
             log("Result", "CREDITS_8500_DETECTED", email)
-            # Create D:/ directory if it doesn't exist
-            os.makedirs("D:/", exist_ok=True)
+            # Create browser_profiles/ directory if it doesn't exist
+            os.makedirs("browser_profiles", exist_ok=True)
             
             # Save account details
-            with open("D:/akun_sukses.txt", "a", encoding="utf-8") as f:
+            with open("browser_profiles/akun_sukses.txt", "a", encoding="utf-8") as f:
                 f.write(f"{email}:{password}\n")
                 
             # Export cookies
             cookies = await context.cookies()
             email_user = email.split("@")[0]
-            cookies_path = f"D:/cookies_{email_user}.json"
+            cookies_path = f"browser_profiles/cookies_{email_user}.json"
             with open(cookies_path, "w", encoding="utf-8") as f:
                 json.dump(cookies, f, indent=4)
                 
-            log("Result", f"SESSION_SAVED_TO_D: {cookies_path}", email)
+            log("Result", f"SESSION_SAVED_TO_PROFILES: {cookies_path}", email)
             return True
         else:
             log("Result", "CREDITS_8500_NOT_FOUND", email)
@@ -630,6 +630,10 @@ async def register_canva(p, email, config):
                 try:
                     url = page.url
                     
+                    if "error=invalid_request" in url:
+                        log("Leonardo", "INVALID_REQUEST_DETECTED", email, "Leonardo URL contains error=invalid_request. Skipping this account...")
+                        return False
+                    
                     # Check if we reached the dashboard
                     if "leonardo.ai" in url and "login" not in url and "auth" not in url:
                         # Check for the checkbox (e.g. "I agree to receive updates...") and click it if present
@@ -945,7 +949,7 @@ async def main():
     # Unified execution log starter
     try:
         with open("bot_execution.log", "a", encoding="utf-8") as f:
-            f.write(f"\n--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE) at {datetime.datetime.now()} ---\n")
+            f.write(f"\n--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE - 2 WORKERS) at {datetime.datetime.now()} ---\n")
     except:
         pass
         
@@ -954,7 +958,7 @@ async def main():
     max_accounts = config.get("max_accounts", 0)
     
     print("========================================")
-    print("      BOT LEONARDO REGISTER LOOP        ")
+    print("  BOT LEONARDO REGISTER LOOP (2 WORKERS)")
     print(f"  Delay between runs: {loop_delay}s")
     if max_accounts > 0:
         print(f"  Target: {max_accounts} accounts")
@@ -964,40 +968,51 @@ async def main():
     
     account_count = 0
     success_count = 0
+    lock = asyncio.Lock()
     
-    try:
-        async with async_playwright() as p:
-            while True:
+    async def worker(worker_id, p):
+        nonlocal account_count, success_count
+        while True:
+            async with lock:
+                if max_accounts > 0 and account_count >= max_accounts:
+                    break
                 account_count += 1
-                print(f"\n--- [ITERATION #{account_count}] ---")
+                current_run = account_count
+            
+            print(f"\n--- [Worker {worker_id} | RUN #{current_run}] ---")
+            
+            # Get a temporary email
+            email = generate_temp_email()
+            if not email:
+                log("Main", "ERROR", error="Failed to generate temporary email from Lisensify")
+                print(f"[Worker {worker_id}] Waiting {loop_delay} seconds before retrying...")
+                await asyncio.sleep(loop_delay)
+                continue
                 
-                # Get a temporary email
-                email = generate_temp_email()
-                if not email:
-                    log("Main", "ERROR", error="Failed to generate temporary email from Lisensify")
-                    print(f"Waiting {loop_delay} seconds before retrying...")
-                    await asyncio.sleep(loop_delay)
-                    continue
-                    
-                log("Main", f"START_REGISTRATION_RUN_{account_count}", email)
-                
-                try:
-                    success = await register_canva(p, email, config)
+            log("Main", f"START_REGISTRATION_RUN_{current_run} (Worker {worker_id})", email)
+            
+            try:
+                success = await register_canva(p, email, config)
+                async with lock:
                     if success:
                         success_count += 1
-                        print(f"\n========================================\n[SUCCESS] RUN #{account_count} SUCCESSFUL: {email}\nTotal Success: {success_count}/{account_count}\n========================================")
+                        print(f"\n========================================\n[SUCCESS] RUN #{current_run} SUCCESSFUL (Worker {worker_id}): {email}\nTotal Success: {success_count}/{account_count}\n========================================")
                     else:
-                        print(f"\n========================================\n[FAILED] RUN #{account_count} FAILED: {email}\nTotal Success: {success_count}/{account_count}\n========================================")
-                except Exception as e:
-                    log("Main", "ERROR", error=str(e))
-                    print(f"[ERROR] Run #{account_count} crashed: {e}")
-                
-                if max_accounts > 0 and account_count >= max_accounts:
-                    print(f"\n[DONE] Reached target of {max_accounts} accounts.")
-                    break
-                    
-                print(f"\nWaiting {loop_delay} seconds before the next run...")
-                await asyncio.sleep(loop_delay)
+                        print(f"\n========================================\n[FAILED] RUN #{current_run} FAILED (Worker {worker_id}): {email}\nTotal Success: {success_count}/{account_count}\n========================================")
+            except Exception as e:
+                log("Main", "ERROR", error=str(e))
+                print(f"[Worker {worker_id} | Run #{current_run}] crashed: {e}")
+            
+            print(f"\n[Worker {worker_id}] Waiting {loop_delay} seconds before the next run...")
+            await asyncio.sleep(loop_delay)
+
+    try:
+        async with async_playwright() as p:
+            tasks = [
+                asyncio.create_task(worker(1, p)),
+                asyncio.create_task(worker(2, p))
+            ]
+            await asyncio.gather(*tasks)
     except KeyboardInterrupt:
         print("\n[WARNING] Loop stopped by user.")
         

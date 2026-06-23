@@ -1794,3 +1794,27 @@
 [2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | CREDIT_POLL_ATTEMPT_1 | Total Tokens: 8500
 [2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | CREDITS_8500_DETECTED
 [2026-06-23 10:31:14] [comfybear55@leosky.eu.cc] Result | SESSION_SAVED_TO_D: D:/cookies_comfybear55.json
+
+--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE - 2 WORKERS) at 2026-06-23 10:52:12.643798 ---
+[2026-06-23 10:52:13] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:52:15] [jovialeli91@sapiderman.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:52:15] [jovialeli91@sapiderman.eu.cc] Main | START_REGISTRATION_RUN_1 (Worker 1)
+[2026-06-23 10:52:15] [jovialeli91@sapiderman.eu.cc] Playwright | START_BROWSER | Profile: browser_profiles/BotLeonardo_profiles\temp_profile_jovialeli91 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:52:15] Lisensify | GENERATE_REQUEST_ATTEMPT_1
+[2026-06-23 10:52:17] [acuteseth14@imleo.eu.cc] Lisensify | GENERATE_SUCCESS
+[2026-06-23 10:52:17] [acuteseth14@imleo.eu.cc] Main | START_REGISTRATION_RUN_2 (Worker 2)
+[2026-06-23 10:52:17] [acuteseth14@imleo.eu.cc] Playwright | START_BROWSER | Profile: browser_profiles/BotLeonardo_profiles\temp_profile_acuteseth14 | Extension: C:\Users\TOSHIBA\Desktop\APIDOCS\BotLeonardo-Genity\leonardo-connect-extension
+[2026-06-23 10:52:21] [acuteseth14@imleo.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:52:21] [jovialeli91@sapiderman.eu.cc] Canva | NAVIGATE_TO_SIGNUP
+[2026-06-23 10:52:48] [acuteseth14@imleo.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:52:48] [jovialeli91@sapiderman.eu.cc] Canva | EMAIL_INPUT_NOT_VISIBLE_LOOKING_FOR_BUTTONS
+[2026-06-23 10:52:49] [acuteseth14@imleo.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:52:50] [jovialeli91@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_ANOTHER_WAY
+[2026-06-23 10:52:52] [acuteseth14@imleo.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:52:53] [jovialeli91@sapiderman.eu.cc] Canva | CLICKED_CONTINUE_WITH_EMAIL_BUTTON
+[2026-06-23 10:52:54] [acuteseth14@imleo.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:52:55] [jovialeli91@sapiderman.eu.cc] Canva | FILL_EMAIL
+[2026-06-23 10:52:58] [jovialeli91@sapiderman.eu.cc] Canva | EMAIL_INPUT_SEARCH_ERR | Page.query_selector_all: Target page, context or browser has been closed
+[2026-06-23 10:52:58] [jovialeli91@sapiderman.eu.cc] Canva | REGISTRATION_FAILED | Email input field not found
+[2026-06-23 10:52:59] [acuteseth14@imleo.eu.cc] Canva | FOUND_EMAIL_INPUT_FALLBACK: type=text, id=_r_1t_
+[2026-06-23 10:53:01] [acuteseth14@imleo.eu.cc] Canva | CLICKED_EMAIL_CONTINUE

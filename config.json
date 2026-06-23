@@ -11,7 +11,7 @@
   "connect_token": "OIYJ3PHqi8lic_b52ARg2Os9",
   "direct_injection": false,
   "delete_profile_on_success": false,
-  "profile_dir": "D:/BotLeonardo_profiles",
+  "profile_dir": "browser_profiles/BotLeonardo_profiles",
   "loop_delay": 10,
   "max_accounts": 99
 }

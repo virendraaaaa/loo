@@ -7,6 +7,8 @@ import re
 import datetime
 import asyncio
 import requests
+import contextvars
+import shutil
 
 try:
     from playwright.async_api import async_playwright
@@ -14,6 +16,8 @@ except ImportError:
     print("Install: pip install playwright")
     sys.exit(1)
 
+log_prefix_var = contextvars.ContextVar("log_prefix", default="")
+email_lock = asyncio.Lock()
 current_progress = ""
 
 def log(action, status, email=None, error=None):
@@ -29,8 +33,14 @@ def log(action, status, email=None, error=None):
     is_important = True  # Log most events for registration bot
     
     parts = [f"[{ts}]"]
-    if current_progress:
-        parts.append(current_progress)
+    
+    # Check if context var is set, otherwise fall back to global current_progress
+    prefix = log_prefix_var.get()
+    if not prefix:
+        prefix = current_progress
+        
+    if prefix:
+        parts.append(prefix)
     if email:
         parts.append(f"[{email}]")
     parts.append(f"{action} | {status}")
@@ -48,16 +58,41 @@ def log(action, status, email=None, error=None):
         except:
             pass
 
+def play_success_sound():
+    """Play success mp3 sound asynchronously using Windows winmm.dll"""
+    if os.name == 'nt':
+        try:
+            import ctypes
+            import random
+            sound_path = os.path.abspath("jokowi-saya-akan-lawan.mp3")
+            if os.path.exists(sound_path):
+                alias_id = f"success_sound_{random.randint(1000, 9999)}"
+                # Open
+                ctypes.windll.winmm.mciSendStringW(f'open "{sound_path}" type mpegvideo alias {alias_id}', None, 0, 0)
+                # Play
+                ctypes.windll.winmm.mciSendStringW(f"play {alias_id}", None, 0, 0)
+                
+                # Auto-close after 20 seconds to free resources
+                async def auto_close(alias):
+                    await asyncio.sleep(20)
+                    try:
+                        import ctypes
+                        ctypes.windll.winmm.mciSendStringW(f"close {alias}", None, 0, 0)
+                    except:
+                        pass
+                asyncio.create_task(auto_close(alias_id))
+        except:
+            pass
+
 def load_config():
     """Load config"""
     default_config = {
+        "email_provider": 1,
         "email_file": "email.txt",
         "signup_url": "https://www.canva.com/brand/join?token=H4cKam2KEzH3Z43NJpNGfg&referrer=team-invite",
         "password": "qwerty123",
         "headless": False,
         "connect_endpoint": "https://api.genityboost.site/connect/account",
-        "loop_delay": 10,
-        "max_accounts": 0,
     }
     if not os.path.exists("config.json"):
         return default_config
@@ -74,12 +109,74 @@ def load_config():
 
 def generate_random_name():
     """Generate a realistic random name"""
-    first_names = ["Budi", "Andi", "Siti", "Dewi", "Rian", "Denny", "Eka", "Putri", "Adi", "Agus", "Rini", "Fajar", "Hadi", "Indah", "Joko", "Kartika", "Lestari", "Mega", "Nugroho", "Prasetyo"]
-    last_names = ["Pratama", "Wijaya", "Santoso", "Hidayat", "Saputra", "Kurniawan", "Sari", "Wulandari", "Utami", "Setiawan", "Gunawan", "Budiman", "Siregar", "Lubis", "Ginting", "Nasution"]
+    first_names = [
+        "Budi", "Andi", "Siti", "Dewi", "Rian", "Denny", "Eka", "Putri", "Adi", "Agus",
+        "Rini", "Fajar", "Hadi", "Indah", "Joko", "Kartika", "Lestari", "Mega", "Nugroho", "Prasetyo",
+        "Ahmad", "Muhammad", "Asep", "Aldi", "Adit", "Aulia", "Bagus", "Bayu", "Bambang", "Cahyo",
+        "Dimas", "Dian", "Doni", "Dwi", "Edi", "Eko", "Erwin", "Fauzan", "Firman", "Galih",
+        "Gunawan", "Hari", "Hendra", "Heru", "Irfan", "Iqbal", "Ivan", "Jefri", "Joni", "Krisna",
+        "Lukman", "Maman", "Nanda", "Naufal", "Niko", "Rafi", "Rama", "Rangga", "Reza", "Rizki",
+        "Sandy", "Surya", "Teguh", "Tommy", "Umar", "Vicky", "Wahyu", "Yoga", "Yudi", "Yusuf",
+        "Zaki", "Ayu", "Anisa", "Anita", "Bella", "Citra", "Desi", "Fitri", "Farah", "Gita",
+        "Hani", "Intan", "Ika", "Kirana", "Linda", "Maya", "Nadia", "Nisa", "Puspita", "Rahma",
+        "Rosa", "Shinta", "Tari", "Tiara", "Vina", "Wulan", "Yuni", "Yuliana", "Zahra", "Mutia"
+    ]
+
+    last_names = [
+        "Pratama", "Wijaya", "Santoso", "Hidayat", "Saputra", "Kurniawan", "Sari", "Wulandari", "Utami", "Setiawan",
+        "Gunawan", "Budiman", "Siregar", "Lubis", "Ginting", "Nasution", "Putra", "Putri", "Permana", "Nugraha",
+        "Mahendra", "Susanto", "Suhendra", "Hartono", "Hermawan", "Firmansyah", "Ramadhan", "Hakim", "Anwar", "Maulana",
+        "Pangestu", "Prakoso", "Purnama", "Kusuma", "Kusumawati", "Lesmana", "Wijayanti", "Rahayu", "Anggraini", "Mulyani",
+        "Handayani", "Safitri", "Azzahra", "Oktaviani", "Febriani", "Aprilia", "Lestari", "Puspitasari", "Kartika", "Maharani",
+        "Syahputra", "Syahfitri", "Fauzi", "Akbar", "Alamsyah", "Herlambang", "Pamungkas", "Wicaksono", "Wibowo", "Purnomo",
+    "Cahyono", "Kuncoro", "Wardana", "Saputri", "Yuliana", "Ningsih", "Sutrisno", "Suharto", "Sutanto", "Halim",
+    "Iskandar", "Saleh", "Harahap", "Simanjuntak", "Situmorang", "Sinaga", "Panjaitan", "Manurung", "Hutabarat", "Silalahi",
+    "Pakpahan", "Tampubolon", "Sembiring", "Tarigan", "Peranginangin", "Sitepu", "KaroKaro", "Barus", "Meliala", "Bangun",
+    "Tanjung", "Daulay", "Hasibuan", "Batubara", "Matondang", "Pasaribu", "Simatupang", "Nainggolan", "Tambunan", "Sagala"
+    ]
     return f"{random.choice(first_names)} {random.choice(last_names)}"
 
-def generate_temp_email():
-    """Generate temporary email from Lisensify API, avoiding @lisensify.com domain"""
+def generate_temp_email_mocasus():
+    """Generate temporary email from Mocasus API (Supabase)"""
+    url = "https://ijrccpgiulrmfpavazsl.supabase.co/functions/v1/generate-inbox"
+    headers = {
+        "accept": "*/*",
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqcmNjcGdpdWxybWZwYXZhenNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2NDMwNTUsImV4cCI6MjA4ODIxOTA1NX0.ljpHFR3iy8hIqU2ddOCwKmP77xbN8-lk8MpCpuPO6tc",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqcmNjcGdpdWxybWZwYXZhenNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2NDMwNTUsImV4cCI6MjA4ODIxOTA1NX0.ljpHFR3iy8hIqU2ddOCwKmP77xbN8-lk8MpCpuPO6tc",
+        "content-type": "application/json",
+        "origin": "https://mocasus.my.id",
+        "referer": "https://mocasus.my.id/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "x-client-info": "supabase-js-web/2.97.0"
+    }
+    domains = ["moymoy.me", "moyqris.me", "membleh.me", "openfile.myid", "neorastorepl.my.id"]
+    selected_domain = random.choice(domains)
+    payload = {
+        "owner_token": "bef8dca4-d4cc-4295-9a53-21b6dd9346fbaad936a712ce4b5c8ef1047c31d96bc2",
+        "domain": selected_domain
+    }
+    
+    # Try up to 5 times
+    for attempt in range(5):
+        try:
+            log("Mocasus", f"GENERATE_REQUEST_ATTEMPT_{attempt+1}")
+            response = requests.post(url, headers=headers, json=payload, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                email = data.get("address")
+                if email:
+                    log("Mocasus", "GENERATE_SUCCESS", email)
+                    return email
+            log("Mocasus", "GENERATE_FAIL", error=f"Status code: {response.status_code}")
+        except Exception as e:
+            log("Mocasus", "GENERATE_ERROR", error=str(e))
+    return None
+
+def generate_temp_email(provider=1):
+    """Generate temporary email based on provider (1 = Lisensify, 2 = Mocasus)"""
+    if provider == 2:
+        return generate_temp_email_mocasus()
+        
     url = "https://lisensify.com/api/generate"
     headers = {
         "Accept": "*/*",
@@ -90,14 +187,14 @@ def generate_temp_email():
     # Try up to 5 times to get a non-blocked domain
     for attempt in range(5):
         try:
-            log("Lisensify", f"GENERATE_REQUEST_ATTEMPT_{attempt+1}")
             response = requests.get(url, headers=headers, timeout=10)
             if response.status_code == 200:
                 data = response.json()
                 email = data.get("address")
                 if email:
-                    if email.lower().endswith("@lisensify.com" or "@jujurjanggal.my.id" or "@kwocag.my.id"):
-                        log("Lisensify", "REJECTED_LISENSIFY_DOMAIN", email, "Retrying for a custom domain...")
+                    domain = email.lower().split("@")[-1]
+                    if (domain in ("lisensify.com", "8humorous.biz.id", "kwocag.my.id", "modiminima.biz.id", "marahinaja.site", "hkstore.my.id", "watchaa.biz.id", "jujurjanggal.my.id", "raidenshop.biz.id", "basakertxt.my.id", "vykue.my.id", "temfake.my.id", "nobisanimi.biz.id", "mail.argtgbgt.tech", "apimza.store", "disneyku.biz.id", "blumail.biz.id", "blumail.biz.id")): # or domain.endswith(".eu.cc")):
+                        log("Lisensify", "REJECTED_DOMAIN", email, "Retrying for another domain...")
                         continue
                     log("Lisensify", "GENERATE_SUCCESS", email)
                     return email
@@ -106,9 +203,46 @@ def generate_temp_email():
             log("Lisensify", "GENERATE_ERROR", error=str(e))
     return None
 
-def check_temp_inbox(email):
-    """Check Lisensify inbox API for messages"""
-    # URL encode the email address for safety
+def check_temp_inbox_mocasus(email):
+    """Check Mocasus inbox API (Supabase)"""
+    encoded_email = requests.utils.quote(email)
+    url = f"https://ijrccpgiulrmfpavazsl.supabase.co/rest/v1/temp_messages?select=*&inbox_address=eq.{encoded_email}&order=received_at.desc&limit=100"
+    headers = {
+        "accept": "*/*",
+        "accept-profile": "public",
+        "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqcmNjcGdpdWxybWZwYXZhenNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2NDMwNTUsImV4cCI6MjA4ODIxOTA1NX0.ljpHFR3iy8hIqU2ddOCwKmP77xbN8-lk8MpCpuPO6tc",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqcmNjcGdpdWxybWZwYXZhenNsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI2NDMwNTUsImV4cCI6MjA4ODIxOTA1NX0.ljpHFR3iy8hIqU2ddOCwKmP77xbN8-lk8MpCpuPO6tc",
+        "origin": "https://mocasus.my.id",
+        "referer": "https://mocasus.my.id/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "x-client-info": "supabase-js-web/2.97.0"
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            messages = response.json()
+            formatted_messages = []
+            for msg in messages:
+                formatted_messages.append({
+                    "subject": msg.get("subject", ""),
+                    "from": msg.get("from_address", "") or msg.get("from_name", ""),
+                    "text": msg.get("text_body", ""),
+                    "html": msg.get("html_body", "")
+                })
+            return {
+                "messages": formatted_messages,
+                "count": len(formatted_messages)
+            }
+        log("Mocasus", "INBOX_FAIL", email, f"Status code: {response.status_code}")
+    except Exception as e:
+        log("Mocasus", "INBOX_ERROR", email, str(e))
+    return None
+
+def check_temp_inbox(email, provider=1):
+    """Check inbox based on provider (1 = Lisensify, 2 = Mocasus)"""
+    if provider == 2:
+        return check_temp_inbox_mocasus(email)
+        
     encoded_email = requests.utils.quote(email)
     url = f"https://lisensify.com/api/inbox/{encoded_email}"
     headers = {
@@ -124,28 +258,34 @@ def check_temp_inbox(email):
         log("Lisensify", "INBOX_ERROR", email, str(e))
     return None
 
-async def poll_for_otp(email, timeout_seconds=120):
-    """Poll Lisensify inbox for Canva verification code"""
-    log("Lisensify", "WAIT_FOR_OTP", email, f"Timeout: {timeout_seconds}s")
+async def poll_for_otp(email, timeout_seconds=120, config=None):
+    """Poll temp inbox for Canva verification code"""
+    email_provider = 1
+    if config:
+        email_provider = int(config.get("email_provider", 1))
+        
+    provider_name = "Lisensify" if email_provider == 1 else "Mocasus"
+    
+    log(provider_name, "WAIT_FOR_OTP", email, f"Timeout: {timeout_seconds}s")
     start_time = time.time()
     
     while time.time() - start_time < timeout_seconds:
-        inbox = check_temp_inbox(email)
+        inbox = check_temp_inbox(email, email_provider)
         if inbox and isinstance(inbox, dict):
             messages = inbox.get("messages", [])
             count = inbox.get("count", 0)
             if count > 0 and messages:
-                log("Lisensify", f"RECEIVED_{len(messages)}_MESSAGES", email)
+                log(provider_name, f"RECEIVED_{len(messages)}_MESSAGES", email)
                 for msg in messages:
                     subject = msg.get("subject", "")
                     sender = msg.get("from", "") or msg.get("fromAddress", "")
-                    log("Lisensify", f"MESSAGE_PREVIEW: From={sender}, Subject='{subject}'", email)
+                    log(provider_name, f"MESSAGE_PREVIEW: From={sender}, Subject='{subject}'", email)
                     
                     # Search for 6 digit code in subject
                     match = re.search(r"\b(\d{6})\b", subject)
                     if match:
                         code = match.group(1)
-                        log("Lisensify", "OTP_FOUND_IN_SUBJECT", email, f"Code: {code}")
+                        log(provider_name, "OTP_FOUND_IN_SUBJECT", email, f"Code: {code}")
                         return code
                         
                     # Also try to search other fields if they exist (just in case)
@@ -154,15 +294,15 @@ async def poll_for_otp(email, timeout_seconds=120):
                             match = re.search(r"\b(\d{6})\b", str(msg[key]))
                             if match:
                                 code = match.group(1)
-                                log("Lisensify", f"OTP_FOUND_IN_{key.upper()}", email, f"Code: {code}")
+                                log(provider_name, f"OTP_FOUND_IN_{key.upper()}", email, f"Code: {code}")
                                 return code
             else:
                 # Log a subtle check message to console (without writing to file to avoid bloating log)
-                print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] Polling Lisensify inbox... (no new messages yet)")
+                print(f"[{datetime.datetime.now().strftime('%H:%M:%S')}] Polling {provider_name} inbox... (no new messages yet)")
         
         await asyncio.sleep(4)
         
-    log("Lisensify", "OTP_TIMEOUT", email)
+    log(provider_name, "OTP_TIMEOUT", email)
     return None
 
 async def type_human(page, selector, text):
@@ -187,7 +327,7 @@ async def type_human(page, selector, text):
         return False
 
 async def save_session_if_credits_ok(page, context, email, password):
-    """Check if the account has 8,500 credits and save the session to browser_profiles/"""
+    """Check if the account has 8,500 credits and save the session to D:/"""
     try:
         log("Result", "CHECKING_CREDITS_8500", email)
         
@@ -241,21 +381,21 @@ async def save_session_if_credits_ok(page, context, email, password):
             
         if has_credits:
             log("Result", "CREDITS_8500_DETECTED", email)
-            # Create browser_profiles/ directory if it doesn't exist
-            os.makedirs("browser_profiles", exist_ok=True)
+            # Create D:/ directory if it doesn't exist
+            os.makedirs("D:/", exist_ok=True)
             
             # Save account details
-            with open("browser_profiles/akun_sukses.txt", "a", encoding="utf-8") as f:
+            with open("D:/akun_sukses.txt", "a", encoding="utf-8") as f:
                 f.write(f"{email}:{password}\n")
                 
             # Export cookies
             cookies = await context.cookies()
             email_user = email.split("@")[0]
-            cookies_path = f"browser_profiles/cookies_{email_user}.json"
+            cookies_path = f"D:/cookies_{email_user}.json"
             with open(cookies_path, "w", encoding="utf-8") as f:
                 json.dump(cookies, f, indent=4)
                 
-            log("Result", f"SESSION_SAVED_TO_PROFILES: {cookies_path}", email)
+            log("Result", f"SESSION_SAVED_TO_D: {cookies_path}", email)
             return True
         else:
             log("Result", "CREDITS_8500_NOT_FOUND", email)
@@ -308,24 +448,38 @@ async def register_canva(p, email, config):
         
         # Step 1: Accept cookies if prompted
         try:
-            cookies_selectors = [
-                "button:has-text('Accept')",
-                "button:has-text('Accept all')",
-                "button:has-text('Accept cookies')",
-                "button:has-text('Setuju')",
-                "button:has-text('Terima')",
-                "button:has-text('Lanjut')",
-                "button:has-text('Allow')",
+            cookie_keywords = [
+                "Accept all cookies", "Accept cookies", "Accept all", "Accept",
+                "Allow", "Allow all", "Agree", "Setuju", "Terima semua", "Terima",
+                "Lanjut", "Use essential only", "Only essential"
             ]
-            for selector in cookies_selectors:
-                el = await page.query_selector(selector)
-                if el and await el.is_visible():
-                    await el.click()
-                    log("Canva", "COOKIES_ACCEPTED", email)
-                    await asyncio.sleep(0.5)
+            clicked = False
+            for kw in cookie_keywords:
+                locators = [
+                    page.locator(f"button:has-text('{kw}')"),
+                    page.locator(f"[role='button']:has-text('{kw}')"),
+                    page.locator(f"div[role='button']:has-text('{kw}')"),
+                    page.locator(f"span:has-text('{kw}')"),
+                ]
+                for loc in locators:
+                    try:
+                        count = await loc.count()
+                        for i in range(count):
+                            el = loc.nth(i)
+                            if await el.is_visible():
+                                await el.click()
+                                log("Canva", f"COOKIES_ACCEPTED ({kw})", email)
+                                await asyncio.sleep(0.5)
+                                clicked = True
+                                break
+                    except:
+                        pass
+                    if clicked:
+                        break
+                if clicked:
                     break
-        except:
-            pass
+        except Exception as cookie_err:
+            log("Canva", "COOKIES_ERROR", email, str(cookie_err))
             
         # Step 2: Handle entering the email flow
         # Check if email input is already visible (by checking standard attributes or any visible input field)
@@ -512,10 +666,10 @@ async def register_canva(p, email, config):
                 
             await asyncio.sleep(5)
             
-        # Step 5: Wait for OTP page and poll Lisensify
-        otp_code = await poll_for_otp(email)
+        # Step 5: Wait for OTP page and poll email inbox
+        otp_code = await poll_for_otp(email, config=config)
         if not otp_code:
-            raise Exception("Failed to get verification OTP from Lisensify")
+            raise Exception("Failed to get verification OTP from email inbox")
             
         # Fill OTP code
         log("Canva", "ENTER_OTP", email, f"OTP: {otp_code}")
@@ -629,10 +783,9 @@ async def register_canva(p, email, config):
             for attempt in range(30):
                 try:
                     url = page.url
-                    
                     if "error=invalid_request" in url:
-                        log("Leonardo", "INVALID_REQUEST_DETECTED", email, "Leonardo URL contains error=invalid_request. Skipping this account...")
-                        return False
+                        log("Leonardo", "INVALID_REQUEST_DETECTED", email, "Leonardo login error detected. Skipping run...")
+                        return "invalid_request"
                     
                     # Check if we reached the dashboard
                     if "leonardo.ai" in url and "login" not in url and "auth" not in url:
@@ -689,10 +842,36 @@ async def register_canva(p, email, config):
                     if "canva.com" in url:
                         # Accept cookies if prompted
                         try:
-                            accept_cookies = await page.query_selector("button:has-text('Accept all cookies'), button:has-text('Accept')")
-                            if accept_cookies and await accept_cookies.is_visible():
-                                await accept_cookies.click()
-                                await asyncio.sleep(1)
+                            cookie_keywords = [
+                                "Accept all cookies", "Accept cookies", "Accept all", "Accept",
+                                "Allow", "Allow all", "Agree", "Setuju", "Terima semua", "Terima",
+                                "Lanjut", "Use essential only", "Only essential"
+                            ]
+                            clicked = False
+                            for kw in cookie_keywords:
+                                locators = [
+                                    page.locator(f"button:has-text('{kw}')"),
+                                    page.locator(f"[role='button']:has-text('{kw}')"),
+                                    page.locator(f"div[role='button']:has-text('{kw}')"),
+                                    page.locator(f"span:has-text('{kw}')"),
+                                ]
+                                for loc in locators:
+                                    try:
+                                        count = await loc.count()
+                                        for i in range(count):
+                                            el = loc.nth(i)
+                                            if await el.is_visible():
+                                                await el.click()
+                                                log("Leonardo", f"COOKIES_ACCEPTED ({kw})", email)
+                                                await asyncio.sleep(0.5)
+                                                clicked = True
+                                                break
+                                    except:
+                                        pass
+                                    if clicked:
+                                        break
+                                if clicked:
+                                    break
                         except:
                             pass
                             
@@ -735,7 +914,7 @@ async def register_canva(p, email, config):
             start_time = time.time()
             last_action_time = time.time()
             
-            while time.time() - start_time < 60:
+            while time.time() - start_time < 150:
                 try:
                     # 1. Check for any unchecked checkboxes (e.g. Terms agreements) and click them
                     try:
@@ -858,6 +1037,7 @@ async def register_canva(p, email, config):
                                         
                                     if connected:
                                         log("Extension", "CONNECT_SUCCESS", email, status_text.replace('\n', ' | '))
+                                        play_success_sound()
                                         await save_session_if_credits_ok(page, context, email, password)
                                         return True
                                     else:
@@ -902,6 +1082,7 @@ async def register_canva(p, email, config):
                                     
                                     if connect_res.get("ok"):
                                         log("Extension", f"CONNECT_SUCCESS | Tokens: {connect_res.get('tokens')}", email)
+                                        play_success_sound()
                                         await save_session_if_credits_ok(page, context, email, password)
                                         return True
                                     else:
@@ -942,81 +1123,126 @@ async def register_canva(p, email, config):
                 pass
             # Wait for browser to fully release locks
             await asyncio.sleep(2)
+            
+        # Clean up temp profile if requested
+        if config.get("delete_temp_profiles", True):
+            try:
+                if os.path.exists(temp_dir):
+                    shutil.rmtree(temp_dir, ignore_errors=True)
+                    log("Cleanup", f"Deleted temporary profile: {temp_dir}", email)
+            except Exception as clean_err:
+                log("Cleanup", f"Failed to delete temp profile: {str(clean_err)}", email)
+
+def input_with_default(prompt, default_val):
+    try:
+        val = input(prompt).strip()
+        return val if val else default_val
+    except (EOFError, KeyboardInterrupt):
+        return default_val
+    except Exception:
+        return default_val
+
+async def worker(queue, worker_id, runtime_config, success_count_list):
+    while not queue.empty():
+        try:
+            run_num = await queue.get()
+        except asyncio.QueueEmpty:
+            break
+        except Exception:
+            break
+            
+        log_prefix_var.set(f"[Worker {worker_id} | RUN #{run_num}]")
+        log("Main", f"START_RUN_{run_num}")
+        
+        # Reload config dynamically inside the loop in case email_provider changes
+        current_config = load_config()
+        # Merge runtime overrides
+        current_config["delete_temp_profiles"] = runtime_config.get("delete_temp_profiles", True)
+        
+        email_provider = int(current_config.get("email_provider", 1))
+        provider_name = "Lisensify" if email_provider == 1 else "Mocasus"
+        
+        # Get a temporary email with Lock to prevent race condition
+        async with email_lock:
+            email = generate_temp_email(email_provider)
+            # Give a small 1s delay to let API register the request
+            await asyncio.sleep(1)
+            
+        if not email:
+            log("Main", "ERROR", error=f"Failed to generate temporary email from {provider_name} on run {run_num}")
+            queue.task_done()
+            await asyncio.sleep(5)
+            continue
+            
+        log("Main", "START_REGISTRATION", email)
+        
+        try:
+            async with async_playwright() as p:
+                result = await register_canva(p, email, current_config)
+                if result == "invalid_request":
+                    print(f"\n========================================\n[SKIPPED] RUN #{run_num} SKIPPED: {email} (invalid_request)\n========================================")
+                elif result:
+                    success_count_list.append(email)
+                    print(f"\n========================================\n[SUCCESS] RUN #{run_num} SUCCESSFUL: {email}\nTotal Success: {len(success_count_list)}\n========================================")
+                else:
+                    print(f"\n========================================\n[FAILED] RUN #{run_num} FAILED: {email}\n========================================")
+        except Exception as e:
+            log("Main", "ERROR", error=str(e))
+            
+        queue.task_done()
+        
+        # Delay between runs to avoid spamming the APIs
+        await asyncio.sleep(10)
 
 async def main():
     os.system("cls" if os.name == "nt" else "clear")
     
-    # Unified execution log starter
+    config = load_config()
+    
+    print(f"\n========================================\n  BOT LEONARDO REGISTER LOOP\n========================================\n")
+    
+    # Prompts for concurrency, target runs, and cleanup preference
+    num_workers_str = input_with_default("Masukkan jumlah worker/sesi paralel yang ingin dijalankan (default: 1): ", "1")
+    try:
+        num_workers = int(num_workers_str)
+    except:
+        num_workers = 1
+        
+    max_runs_str = input_with_default("Masukkan total target akun yang ingin dibuat (default: 99): ", "99")
+    try:
+        max_runs = int(max_runs_str)
+    except:
+        max_runs = 99
+        
+    cleanup_str = input_with_default("Apakah ingin menghapus profil temp browser setelah selesai? (y/n) (default: y): ", "y").lower()
+    delete_temp_profiles = cleanup_str != 'n'
+    
+    config["delete_temp_profiles"] = delete_temp_profiles
+    success_count_list = []
+    
+    # Unified execution log starter for loop mode
     try:
         with open("bot_execution.log", "a", encoding="utf-8") as f:
-            f.write(f"\n--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE - 2 WORKERS) at {datetime.datetime.now()} ---\n")
+            f.write(f"\n--- START CANVA TEMPMAIL REGISTER BOT (LOOP MODE) at {datetime.datetime.now()} ---\n")
     except:
         pass
         
-    config = load_config()
-    loop_delay = config.get("loop_delay", 10)
-    max_accounts = config.get("max_accounts", 0)
-    
-    print("========================================")
-    print("  BOT LEONARDO REGISTER LOOP (2 WORKERS)")
-    print(f"  Delay between runs: {loop_delay}s")
-    if max_accounts > 0:
-        print(f"  Target: {max_accounts} accounts")
-    else:
-        print("  Target: Infinite loop (Ctrl+C to stop)")
-    print("========================================\n")
-    
-    account_count = 0
-    success_count = 0
-    lock = asyncio.Lock()
-    
-    async def worker(worker_id, p):
-        nonlocal account_count, success_count
-        while True:
-            async with lock:
-                if max_accounts > 0 and account_count >= max_accounts:
-                    break
-                account_count += 1
-                current_run = account_count
-            
-            print(f"\n--- [Worker {worker_id} | RUN #{current_run}] ---")
-            
-            # Get a temporary email
-            email = generate_temp_email()
-            if not email:
-                log("Main", "ERROR", error="Failed to generate temporary email from Lisensify")
-                print(f"[Worker {worker_id}] Waiting {loop_delay} seconds before retrying...")
-                await asyncio.sleep(loop_delay)
-                continue
-                
-            log("Main", f"START_REGISTRATION_RUN_{current_run} (Worker {worker_id})", email)
-            
-            try:
-                success = await register_canva(p, email, config)
-                async with lock:
-                    if success:
-                        success_count += 1
-                        print(f"\n========================================\n[SUCCESS] RUN #{current_run} SUCCESSFUL (Worker {worker_id}): {email}\nTotal Success: {success_count}/{account_count}\n========================================")
-                    else:
-                        print(f"\n========================================\n[FAILED] RUN #{current_run} FAILED (Worker {worker_id}): {email}\nTotal Success: {success_count}/{account_count}\n========================================")
-            except Exception as e:
-                log("Main", "ERROR", error=str(e))
-                print(f"[Worker {worker_id} | Run #{current_run}] crashed: {e}")
-            
-            print(f"\n[Worker {worker_id}] Waiting {loop_delay} seconds before the next run...")
-            await asyncio.sleep(loop_delay)
-
-    try:
-        async with async_playwright() as p:
-            tasks = [
-                asyncio.create_task(worker(1, p)),
-                asyncio.create_task(worker(2, p))
-            ]
-            await asyncio.gather(*tasks)
-    except KeyboardInterrupt:
-        print("\n[WARNING] Loop stopped by user.")
+    # Populate the task queue
+    queue = asyncio.Queue()
+    for run_num in range(1, max_runs + 1):
+        await queue.put(run_num)
         
-    log("Main", "DONE", error=f"Total: {account_count}, Success: {success_count}")
+    # Start the worker coroutines
+    workers = []
+    for i in range(1, num_workers + 1):
+        task = asyncio.create_task(worker(queue, i, config, success_count_list))
+        workers.append(task)
+        # Stagger the start of each worker to avoid race conditions at browser launch
+        await asyncio.sleep(3)
+        
+    await asyncio.gather(*workers)
+    
+    log("Main", f"DONE | Total Success: {len(success_count_list)}/{max_runs}")
 
 if __name__ == "__main__":
     try:
